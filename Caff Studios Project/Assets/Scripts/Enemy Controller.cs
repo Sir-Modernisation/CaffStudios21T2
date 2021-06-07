@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(Time.deltaTime);
+        //print(Time.deltaTime); //get this working later
     }
 
     void Change()
