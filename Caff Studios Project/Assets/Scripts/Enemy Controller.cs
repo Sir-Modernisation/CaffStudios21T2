@@ -12,12 +12,13 @@ public class EnemyController : MonoBehaviour
     int maxTime;
     void Start()
     {
-        public void Invoke(string Change, float maxTime);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        print(Time.deltaTime);
     }
 
     void Change()
@@ -25,6 +26,5 @@ public class EnemyController : MonoBehaviour
         speed1 = Random.Range(0, 10);
         speed2 = Random.Range(0, 10);
         maxTime = Random.Range(0, 5);
-        public void Invoke(string Change, float maxTime);
     }
 }
