@@ -309,7 +309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250576623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19, y: 2.16, z: -0.96}
+  m_LocalPosition: {x: -0.03, y: 2.16, z: -19.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -327,6 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae01ebae334d5a441b64e19cc03cb594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Red: {fileID: 2100000, guid: aee35609ca444ea43b7fb745a7ecd655, type: 2}
 --- !u!1 &472935111
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +533,7 @@ GameObject:
   - component: {fileID: 924300657}
   - component: {fileID: 924300656}
   - component: {fileID: 924300655}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -963,7 +964,7 @@ GameObject:
   - component: {fileID: 2112432539}
   - component: {fileID: 2100094941}
   - component: {fileID: 2106800026}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -982,6 +983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c38ab917ac56f409d8e7a74220619b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Material1: {fileID: 2100000, guid: 53ab17b067d6d8a4295ac8cf31d2a56e, type: 2}
 --- !u!1 &2106800027
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,7 +997,7 @@ GameObject:
   - component: {fileID: 2101297787}
   - component: {fileID: 2109789435}
   - component: {fileID: 2112859771}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FPSController
   m_TagString: Untagged
   m_Icon: {fileID: 0}

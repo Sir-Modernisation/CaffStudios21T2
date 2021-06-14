@@ -7,6 +7,7 @@ public class PlayerGun : MonoBehaviour
     //Script to control the players gun - initially getting raycasting shots working, Then will also be responsible for Animations, Tracking the number of rounds fired, Scope, etc
 
     int mag;
+    public Material Material1;
     void Start()
     {
         mag = 5;
@@ -55,7 +56,15 @@ public class PlayerGun : MonoBehaviour
         mag = mag - 1;
         //playanimation shoot or something
         //Raycast here
+        RaycastHit hit;
+        Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            hit.transform.gameObject.GetComponent<Renderer>().material = Material1;
+        }
     }
+
     //-------------------------------------------------------------
 
 

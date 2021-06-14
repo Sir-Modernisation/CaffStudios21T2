@@ -10,9 +10,10 @@ public class EnemyController : MonoBehaviour
     float speed1;
     float speed2;
     int maxTime;
+    public Material Red;
     void Start()
     {
-        
+        StartCoroutine(Change());
     }
 
     // Update is called once per frame
@@ -21,10 +22,15 @@ public class EnemyController : MonoBehaviour
        // print(Time.deltaTime); //get this working later
     }
 
-    void Change()
+    IEnumerator Change()
     {
-        speed1 = Random.Range(0, 10);
-        speed2 = Random.Range(0, 10);
+        speed1 = Random.Range(-10, 10);
+        speed2 = Random.Range(-10, 10);
         maxTime = Random.Range(0, 5);
+        transform.Translate(Vector3.forward * speed1);
+        transform.Translate(Vector3.right * speed2);
+        GetComponent<Renderer>().material = Red;
+        yield return new WaitForSeconds(maxTime);
+        StartCoroutine(Change());
     }
 }
