@@ -8,9 +8,12 @@ public class PlayerGun : MonoBehaviour
 
     int mag;
     public Material Material1;
+    public GameObject pistol;
+    Animator anim;
     void Start()
     {
         mag = 5;
+        anim = pistol.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -35,6 +38,8 @@ public class PlayerGun : MonoBehaviour
             if (mag != 5)
             {
                 {
+                    anim.SetTrigger("Reloading");
+                    anim.SetTrigger("Reloading");
                     print("Reloading:");
                     for (int i=mag; i<5; ++i)
                     {
@@ -55,6 +60,16 @@ public class PlayerGun : MonoBehaviour
         print("Bang!");
         mag = mag - 1;
         //playanimation shoot or something
+        if (mag == 0)
+        {
+            //play slide lock
+            anim.SetTrigger("FireLast");
+        }
+        else
+        {
+            anim.SetTrigger("Fire");
+            anim.SetTrigger("Fire");// shoots - have to do twice to unflag the trigger, else animation repeats
+        }
         //Raycast here
         RaycastHit hit;
         Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
