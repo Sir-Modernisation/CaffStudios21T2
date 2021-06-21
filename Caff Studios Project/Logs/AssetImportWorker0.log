@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16274 MB
+OS: 'Windows 10 Enterprise; OS build 19041.264; Version 2004; 64bit' Language: 'en' Physical Memory: 32683 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,687 +11,192 @@ C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/InWin 805/Documents/GitHub/CaffStudios21T2/Caff Studios Project
+C:/Users/rbeckmansawyer/Documents/GitHub/CaffStudios21T2/Caff Studios Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52449
-Successfully changed project path to: C:/Users/InWin 805/Documents/GitHub/CaffStudios21T2/Caff Studios Project
-C:/Users/InWin 805/Documents/GitHub/CaffStudios21T2/Caff Studios Project
+55164
+Successfully changed project path to: C:/Users/rbeckmansawyer/Documents/GitHub/CaffStudios21T2/Caff Studios Project
+C:/Users/rbeckmansawyer/Documents/GitHub/CaffStudios21T2/Caff Studios Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/InWin 805/Documents/GitHub/CaffStudios21T2/Caff Studios Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/rbeckmansawyer/Documents/GitHub/CaffStudios21T2/Caff Studios Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
     Vendor:   
-    VRAM:     8079 MB
-    Driver:   27.21.14.6647
+    VRAM:     4053 MB
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001548 seconds.
+Registered in 0.002404 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.58 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
+- Completed reload, in  1.544 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000684 seconds.
+Registered in 0.000974 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
+- Completed reload, in  0.964 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.0 MB.
-System memory in use after: 72.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1711.
-Total: 1.521000 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.089100 ms  DeleteObjects: 0.272900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/PlayerGun.cs
-  artifactKey: Guid(55c38ab917ac56f409d8e7a74220619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerGun.cs using Guid(55c38ab917ac56f409d8e7a74220619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b423928048a1861b3af6350b6ef7c3e') in 0.022990 seconds
-  Import took 0.024700 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.0 MB.
-System memory in use after: 70.7 MB.
+Unloading 1252 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 72.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1714.
-Total: 1.534200 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.090500 ms  DeleteObjects: 0.279100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1712.
+Total: 2.038700 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.510200 ms  DeleteObjects: 0.357100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 137.687496 seconds.
-  path: Assets/Scripts/EnemyController.cs
-  artifactKey: Guid(ae01ebae334d5a441b64e19cc03cb594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyController.cs using Guid(ae01ebae334d5a441b64e19cc03cb594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b0e6689ea6b359ff40f571ed066b36') in 0.009109 seconds
-  Import took 0.011173 seconds .
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(376130c7ab7e20349b71249c0fd8b07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(376130c7ab7e20349b71249c0fd8b07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dadf953921bf8c57ba503f4928b8bc') in 0.011248 seconds
+  Import took 0.013183 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000742 seconds.
+Registered in 0.001106 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.643 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.0 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1717.
-Total: 1.547300 ms (FindLiveObjects: 0.140000 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.062200 ms  DeleteObjects: 0.306500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.671104 seconds.
-  path: Assets/Scripts/EnemyController.cs
-  artifactKey: Guid(ae01ebae334d5a441b64e19cc03cb594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyController.cs using Guid(ae01ebae334d5a441b64e19cc03cb594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dac21089101ea1478851cea818a9b24') in 0.005114 seconds
-  Import took 0.006729 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000554 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.0 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1720.
-Total: 1.564800 ms (FindLiveObjects: 0.126500 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.099900 ms  DeleteObjects: 0.302800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000681 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.609 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.0 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1723.
-Total: 1.867900 ms (FindLiveObjects: 0.156400 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.350500 ms  DeleteObjects: 0.314200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000662 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.0 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1726.
-Total: 1.519200 ms (FindLiveObjects: 0.122200 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.069300 ms  DeleteObjects: 0.292500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 866.456773 seconds.
-  path: Assets/Mats
-  artifactKey: Guid(c0f84f6c1ea66364094c61e2c07389a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats using Guid(c0f84f6c1ea66364094c61e2c07389a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c76fa8e9aa5f2862d34ef45ec202c') in 0.008891 seconds
-  Import took 0.011060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.312971 seconds.
-  path: Assets/Mats/New Material.mat
-  artifactKey: Guid(53a83e8ab634434488764676a9bf9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/New Material.mat using Guid(53a83e8ab634434488764676a9bf9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f26088b2de7fcd53c2a27eba37ae5a') in 0.098154 seconds
-  Import took 0.100109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.848225 seconds.
-  path: Assets/Mats/Blue.mat
-  artifactKey: Guid(53a83e8ab634434488764676a9bf9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/Blue.mat using Guid(53a83e8ab634434488764676a9bf9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe1a1b627bf720f6ea1fbe1bc109402') in 0.010389 seconds
-  Import took 0.012473 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000619 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
+- Completed reload, in  0.757 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
-System memory in use after: 74.1 MB.
+Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.0 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1769.
-Total: 1.629100 ms (FindLiveObjects: 0.132900 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.180300 ms  DeleteObjects: 0.270500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 162.991756 seconds.
-  path: Assets/SkySerie Freebie/ExampleScenes/SceneObjects/2_10.mat
-  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fc4155bd891dae7c1e224ebfe7a6ca') in 0.055411 seconds
-  Import took 0.057732 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 2.290900 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.784500 ms  DeleteObjects: 0.338100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-glass.mat
-  artifactKey: Guid(96094546a5c347e44997623b96990760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-glass.mat using Guid(96094546a5c347e44997623b96990760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003bd4c5e503a2b16eb5dd5c60acc05b') in 0.013213 seconds
-  Import took 0.015783 seconds .
+  Time since last request: 268.305774 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
+  artifactKey: Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab using Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95918618b23e80762f5f4093c3bd7e99') in 0.133979 seconds
+  Import took 0.137384 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-bodycolor_unmarked.mat
-  artifactKey: Guid(7135b998a6172344a8af2c8427f704f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-bodycolor_unmarked.mat using Guid(7135b998a6172344a8af2c8427f704f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d52d7e0fa1869b81f58644e8fe0c13') in 0.011016 seconds
-  Import took 0.013219 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png
+  artifactKey: Guid(87be4190eae46cf459ae6177b8698f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png using Guid(87be4190eae46cf459ae6177b8698f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acc3630a2894e84a99ea829c33329ac') in 0.021575 seconds
+  Import took 0.024026 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-HD-wheelrim.mat
-  artifactKey: Guid(323a016b24cacfd41a0d44b906a91d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-HD-wheelrim.mat using Guid(323a016b24cacfd41a0d44b906a91d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3e9381417459c490e7488e8efb52c3') in 0.011753 seconds
-  Import took 0.013646 seconds .
+  Time since last request: 0.000302 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png
+  artifactKey: Guid(c3d66a8056f9db345b1ea380aa7e815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png using Guid(c3d66a8056f9db345b1ea380aa7e815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca4f928a5813ef9b721ed4f66eaee31') in 0.007398 seconds
+  Import took 0.009667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-bodycolor.mat
-  artifactKey: Guid(fb78cbaecff6fe340b3d2601b4978091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-bodycolor.mat using Guid(fb78cbaecff6fe340b3d2601b4978091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f539b8e797e35ad6a5c3207c900c740') in 0.019211 seconds
-  Import took 0.021699 seconds .
+  Time since last request: 0.000446 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr
+  artifactKey: Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr using Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5981e91931cf32d45be55018d505a973') in 0.089210 seconds
+  Import took 0.093050 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-diffuse.mat
-  artifactKey: Guid(56d049173455e0d4094d5f56c64c1b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-diffuse.mat using Guid(56d049173455e0d4094d5f56c64c1b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8641aa6d296f9c5d547586b1ef219729') in 0.014927 seconds
-  Import took 0.017201 seconds .
+  Time since last request: 0.000455 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
+  artifactKey: Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab using Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541d8377d9648ba2b61eae7f60741214') in 0.011453 seconds
+  Import took 0.013874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-HD-wheeltyre.mat
-  artifactKey: Guid(debddb16596fcc6419ee8f38c486f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-HD-wheeltyre.mat using Guid(debddb16596fcc6419ee8f38c486f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3c914a8c4ca3f23203e730a36b0b1c') in 0.012953 seconds
-  Import took 0.014827 seconds .
+  Time since last request: 0.000394 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png
+  artifactKey: Guid(8e44fe896458128418bff33ed3981421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png using Guid(8e44fe896458128418bff33ed3981421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bc1beebb063a52a08d711cb0d7277a') in 0.007624 seconds
+  Import took 0.010359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-reflective.mat
-  artifactKey: Guid(e0429ddf6bfa5f441bde3c1f46aee0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-reflective.mat using Guid(e0429ddf6bfa5f441bde3c1f46aee0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33137f1791fc2bd48c37fa10a270eff7') in 0.012175 seconds
-  Import took 0.014169 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
+  artifactKey: Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab using Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c609e3c7672a7ea33dad9e66b9aa837') in 0.005954 seconds
+  Import took 0.008478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/SkySerie Freebie/CoriolisNight4k.mat
-  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a4eaf79bcca3629f49ad32fcbd9c5a') in 0.065097 seconds
-  Import took 0.068580 seconds .
+  Time since last request: 0.000396 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
+  artifactKey: Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab using Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c35b2c1d2ab2e34bcde441ea44d72b') in 0.012212 seconds
+  Import took 0.014723 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-wheeltyre.mat
-  artifactKey: Guid(8a4f4fafbd305df489cd371ea326dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-wheeltyre.mat using Guid(8a4f4fafbd305df489cd371ea326dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acec126a6333f741f466dcf6d806a3e') in 0.010692 seconds
-  Import took 0.012557 seconds .
+  Time since last request: 7.136939 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc020f32c43c83e4d6f0e4655f017a0') in 0.015504 seconds
+  Import took 0.019447 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-windows.mat
-  artifactKey: Guid(568d6a4b770f6064885b34415cccaf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-windows.mat using Guid(568d6a4b770f6064885b34415cccaf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084a26f07234493fc33f2159df4bfa15') in 0.010280 seconds
-  Import took 0.013056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-chrome.mat
-  artifactKey: Guid(338b8c619d7021d4fb33cc0bc4678e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-chrome.mat using Guid(338b8c619d7021d4fb33cc0bc4678e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db33e660100c532723d6a61ff92dbed') in 0.008841 seconds
-  Import took 0.010596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-glass red.mat
-  artifactKey: Guid(89d383e7e7e167c4b90e2b01c728980b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-glass red.mat using Guid(89d383e7e7e167c4b90e2b01c728980b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f883823ec6a46638dd6b66e9c4b66b') in 0.009032 seconds
-  Import took 0.010936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-mirror.mat
-  artifactKey: Guid(6946fc7f86e41124eaac17ba717056c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-mirror.mat using Guid(6946fc7f86e41124eaac17ba717056c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb18697e7b3639762edbfb11685c5b0a') in 0.008990 seconds
-  Import took 0.010753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/SkySerie Freebie/ExampleScenes/SceneObjects/4_10.mat
-  artifactKey: Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/ExampleScenes/SceneObjects/4_10.mat using Guid(db3bceb128d32144ca6fd4550ac256bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dc3e7596b1e7d0e5407e6bd08f692f') in 0.009672 seconds
-  Import took 0.011430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-brakelights.mat
-  artifactKey: Guid(1516208c39fa7d24c9d945d7a4207fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-brakelights.mat using Guid(1516208c39fa7d24c9d945d7a4207fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6da00a605d4f84cea1b42a66cfe4f82') in 0.009714 seconds
-  Import took 0.011567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-trims.mat
-  artifactKey: Guid(17557a8828ac8f9459c427b713c0fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-trims.mat using Guid(17557a8828ac8f9459c427b713c0fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb920776d669344576b2295400848be') in 0.009595 seconds
-  Import took 0.011465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/collider.mat
-  artifactKey: Guid(f90933035c2fb7242ae6097209a190d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/collider.mat using Guid(f90933035c2fb7242ae6097209a190d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6dd86502756456978fed4ab7bf1338') in 0.009162 seconds
-  Import took 0.011024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/SkySerie Freebie/ExampleScenes/SceneObjects/8_10.mat
-  artifactKey: Guid(964f6a34e2240bf45940918b112ce7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/ExampleScenes/SceneObjects/8_10.mat using Guid(964f6a34e2240bf45940918b112ce7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7d36cd030ba3d56359053679386b74') in 0.008879 seconds
-  Import took 0.010666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Atlas_Industrial.mat
-  artifactKey: Guid(9d456912a88efc145be7ea821dcc6bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Atlas_Industrial.mat using Guid(9d456912a88efc145be7ea821dcc6bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad1cf3ff4a1a39c794c71dbc5ae5317') in 0.013427 seconds
-  Import took 0.015396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/SkySerie Freebie/ExampleScenes/SceneObjects/6_10.mat
-  artifactKey: Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/ExampleScenes/SceneObjects/6_10.mat using Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b451df62ee18f3a25b2be0b3835fe') in 0.010248 seconds
-  Import took 0.012100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-darkwindows.mat
-  artifactKey: Guid(9f3e733749119f1499117f2bc3b265e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-darkwindows.mat using Guid(9f3e733749119f1499117f2bc3b265e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff90ce8c4ab1aaa6f6d604032168ebb1') in 0.009150 seconds
-  Import took 0.011024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-glass blue.mat
-  artifactKey: Guid(d1f6b12832fc0cb45b10152ca99a7edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-glass blue.mat using Guid(d1f6b12832fc0cb45b10152ca99a7edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7907e6433c8116a3b9f282ce1812d1') in 0.009692 seconds
-  Import took 0.011449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/SkySerie Freebie/ExampleScenes/SceneObjects/2_10.mat
-  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fc4155bd891dae7c1e224ebfe7a6ca') in 0.006212 seconds
-  Import took 0.008124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-interior.mat
-  artifactKey: Guid(0b0665ca2f2c35548abacf845ea901c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/050116FCVI-interior.mat using Guid(0b0665ca2f2c35548abacf845ea901c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a5ef33fa6ca5fa6921d8c48cdb7db3') in 0.013167 seconds
-  Import took 0.014978 seconds .
+  Time since last request: 0.000446 seconds.
+  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab
+  artifactKey: Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab using Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371f1635cfd3d63c9fd8b94778f8c48a') in 0.009603 seconds
+  Import took 0.012941 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000606 seconds.
+Registered in 0.000992 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.5 MB.
-System memory in use after: 74.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1773.
-Total: 1.628000 ms (FindLiveObjects: 0.122500 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.141000 ms  DeleteObjects: 0.330400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000657 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
+- Completed reload, in  0.789 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
+Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 74.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1776.
-Total: 1.554700 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.105500 ms  DeleteObjects: 0.289600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000637 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.594 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1779.
-Total: 1.680800 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.190300 ms  DeleteObjects: 0.309600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000636 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1782.
-Total: 1.571400 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.114500 ms  DeleteObjects: 0.301200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000631 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.596 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1785.
-Total: 1.585200 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.112500 ms  DeleteObjects: 0.310000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 524.877437 seconds.
-  path: Assets/SkySerie Freebie/ExampleScenes/SceneObjects/Full.mat
-  artifactKey: Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/ExampleScenes/SceneObjects/Full.mat using Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e9d6e6b76910f19c0483e8eacb12b9') in 0.069039 seconds
-  Import took 0.071076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Prefabs/Police Car/Mesh/Materials/GR3D-shotgun.mat
-  artifactKey: Guid(4832c6f024d68564a84a61be31c238f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Mesh/Materials/GR3D-shotgun.mat using Guid(4832c6f024d68564a84a61be31c238f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e3e88aa6976aae51dff2da87bf6f7e') in 0.010774 seconds
-  Import took 0.012572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.139001 seconds.
-  path: Assets/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat
-  artifactKey: Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat using Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef96f2fa7ba16c975dcc258c797387ed') in 0.016143 seconds
-  Import took 0.018045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat
-  artifactKey: Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat using Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef96f2fa7ba16c975dcc258c797387ed') in 0.008946 seconds
-  Import took 0.010743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.394424 seconds.
-  path: Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Tarmac.mat
-  artifactKey: Guid(a12128ad79a385a4e8e86de0bc44993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Tarmac.mat using Guid(a12128ad79a385a4e8e86de0bc44993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1190d38241721b94fc70e73d84b5bf21') in 0.017351 seconds
-  Import took 0.019283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Wall01.mat
-  artifactKey: Guid(37b8d0640a8fb8f44a1b321960cacac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Wall01.mat using Guid(37b8d0640a8fb8f44a1b321960cacac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f451cb6995f7b217bb9cd837d75360') in 0.010206 seconds
-  Import took 0.012126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Tarmac.mat
-  artifactKey: Guid(a12128ad79a385a4e8e86de0bc44993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Tarmac.mat using Guid(a12128ad79a385a4e8e86de0bc44993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1190d38241721b94fc70e73d84b5bf21') in 0.010665 seconds
-  Import took 0.012658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008994 seconds.
-  path: Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Wall01.mat
-  artifactKey: Guid(37b8d0640a8fb8f44a1b321960cacac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Police Car/Demo Scene/Mesh/Materials/Wall01.mat using Guid(37b8d0640a8fb8f44a1b321960cacac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f451cb6995f7b217bb9cd837d75360') in 0.008759 seconds
-  Import took 0.010816 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000575 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1789.
-Total: 1.587300 ms (FindLiveObjects: 0.127900 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.126600 ms  DeleteObjects: 0.295200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000671 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1792.
-Total: 1.595000 ms (FindLiveObjects: 0.131100 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.119300 ms  DeleteObjects: 0.306900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.433123 seconds.
-  path: Assets/Mats/New Material.mat
-  artifactKey: Guid(53ab17b067d6d8a4295ac8cf31d2a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/New Material.mat using Guid(53ab17b067d6d8a4295ac8cf31d2a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a149ed005fa17a10488d226fa5d6e4e') in 0.057574 seconds
-  Import took 0.059321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.496097 seconds.
-  path: Assets/Mats/Green.mat
-  artifactKey: Guid(53ab17b067d6d8a4295ac8cf31d2a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/Green.mat using Guid(53ab17b067d6d8a4295ac8cf31d2a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4642be0b5682540ef77a36af7d95d06') in 0.008725 seconds
-  Import took 0.010604 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000642 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.591 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1796.
-Total: 2.026200 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.262300 ms  DeleteObjects: 0.589900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000660 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.582 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.5 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1799.
-Total: 1.562600 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.102900 ms  DeleteObjects: 0.299900 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1757.
+Total: 2.230500 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.692400 ms  DeleteObjects: 0.365600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
