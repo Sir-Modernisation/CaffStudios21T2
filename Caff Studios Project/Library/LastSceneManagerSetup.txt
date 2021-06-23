@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Player Testing.unity
+- path: Assets/k_level/Shoot training 2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
