@@ -68,7 +68,7 @@ public class PlayerGun : MonoBehaviour
         else
         {
             anim.SetTrigger("Fire");
-            anim.SetTrigger("Fire");// shoots - have to do twice to unflag the trigger, else animation repeats
+            anim.SetTrigger("Fire");// shoots - have to do twice to unflag the trigger, else animation seems to repeat
         }
         //Raycast here
         RaycastHit hit;
@@ -78,6 +78,11 @@ public class PlayerGun : MonoBehaviour
         {
             hit.transform.gameObject.GetComponent<Renderer>().material = Material1;
         }
+    }
+
+    void Shout()
+    {
+        // raycast to the target, get its current state and play the relavant animation / sound
     }
 
     //-------------------------------------------------------------
