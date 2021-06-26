@@ -7,12 +7,16 @@ ScriptsOnlyBuild:
     - EnemyController
     - MainMenu
     - PlayerGun
+    - SetVolume
+    - WindowManager
     - WorldPositionButton
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -32,6 +36,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/Main Menu.unity:
     - Class: 1
@@ -69,25 +74,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1464}
-    - Class: 114
       Script: {instanceID: 1466}
+    - Class: 114
+      Script: {instanceID: 1468}
     - Class: 114
       Script: {instanceID: 1470}
     - Class: 114
-      Script: {instanceID: 1766}
+      Script: {instanceID: 1472}
     - Class: 114
-      Script: {instanceID: 2198}
+      Script: {instanceID: 1768}
     - Class: 114
-      Script: {instanceID: 2820}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3012}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3272}
     - Class: 114
-      Script: {instanceID: 3754}
+      Script: {instanceID: 3656}
+    - Class: 114
+      Script: {instanceID: 3756}
+    - Class: 114
+      Script: {instanceID: 17192}
+    - Class: 114
+      Script: {instanceID: 28480}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -109,6 +120,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Prototype.unity:
     - Class: 1
@@ -152,23 +169,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1466}
+      Script: {instanceID: 1468}
     - Class: 114
-      Script: {instanceID: 1470}
+      Script: {instanceID: 1472}
     - Class: 114
-      Script: {instanceID: 1496}
+      Script: {instanceID: 1498}
     - Class: 114
-      Script: {instanceID: 1618}
+      Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 1676}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 2820}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 3012}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3272}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1224,6 +1241,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: FPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 2122ad77b35f7f0129bab21633be2a24
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetVolume
+  - hash:
+      serializedVersion: 2
+      Hash: ec4321d3aef5e99ce125679f044c9775
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WindowManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
