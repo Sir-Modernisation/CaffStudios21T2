@@ -27,64 +27,39 @@ public class TargetBoard_a : MonoBehaviour
         
     }
 
-    IEnumerator Headshot()
+    public void Headshot()
     {
         position.text = "Headshot";
         description.text = "Object die, panic level and stress level rise++";
         image.GetComponent<Image>().sprite = popImage[0];
-
-        yield return new WaitForSeconds(3);
-        position.text = " ";
-        description.text = " ";
-        image.GetComponent<Image>().sprite = null;
     }
 
-    IEnumerator Armshot()
+    public void Armshot()
     {
         position.text = "Arm";
         description.text = "Injure target";
         image.GetComponent<Image>().sprite = popImage[1];
-
-        yield return new WaitForSeconds(3);
-        position.text = " ";
-        description.text = " ";
-        image.GetComponent<Image>().sprite = null;
     }
 
-    IEnumerator Bodyshot()
+    public void Bodyshot()
     {
         position.text = "Body";
         description.text = "Injure target";
         image.GetComponent<Image>().sprite = popImage[1];
-
-        yield return new WaitForSeconds(3);
-        position.text = " ";
-        description.text = " ";
-        image.GetComponent<Image>().sprite = null;
     }
 
-    IEnumerator Legshot()
+    public void Legshot()
     {
         position.text = "Leg";
         description.text = "Injure target and target cannot move";
         image.GetComponent<Image>().sprite = popImage[2];
-
-        yield return new WaitForSeconds(3);
-        position.text = " ";
-        description.text = " ";
-        image.GetComponent<Image>().sprite = null;
     }
 
-    IEnumerator WaeopnArmshot()
+    public void WaeopnArmshot()
     {
         position.text = "Arm (with weapon)";
         description.text = "Injure target and the target drop the weapon";
         image.GetComponent<Image>().sprite = popImage[3];
-
-        yield return new WaitForSeconds(3);
-        position.text = " ";
-        description.text = " ";
-        image.GetComponent<Image>().sprite = null;
     }
 
     void Update()
@@ -96,27 +71,27 @@ public class TargetBoard_a : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-            StartCoroutine(Armshot());
+            Armshot();
         }
 
         if (Input.GetKeyDown(KeyCode.V))
         {
-            StartCoroutine(Bodyshot());
+            Bodyshot();
         }
 
         if (Input.GetKeyDown(KeyCode.B))
         {
-            StartCoroutine(Headshot());
+            Headshot();
         }
 
         if (Input.GetKeyDown(KeyCode.N))
         {
-            StartCoroutine(Legshot());
+            Legshot();
         }
 
         if (Input.GetKeyDown(KeyCode.M))
         {
-            StartCoroutine(WaeopnArmshot());
+            WaeopnArmshot();
         }
 
     }
