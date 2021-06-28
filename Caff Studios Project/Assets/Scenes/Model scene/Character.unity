@@ -247,6 +247,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
+  stg1: {fileID: 2100000, guid: 5808a76ab52413f45b6302cf7c71300b, type: 2}
+  stg2: {fileID: 2100000, guid: 943b37e47dfefe74689d58944e554aab, type: 2}
+  stg3: {fileID: 2100000, guid: 53a83e8ab634434488764676a9bf9c60, type: 2}
 --- !u!95 &467968388
 Animator:
   serializedVersion: 3
@@ -4071,6 +4074,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
+  stg1: {fileID: 0}
+  stg2: {fileID: 0}
+  stg3: {fileID: 0}
 --- !u!1 &9105820456272502500
 GameObject:
   m_ObjectHideFlags: 0
