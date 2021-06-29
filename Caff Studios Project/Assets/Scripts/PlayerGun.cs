@@ -10,6 +10,7 @@ public class PlayerGun : MonoBehaviour
     public Material Material1;
     public GameObject pistol;
     Animator anim;
+    RaycastHit hit;
     void Start()
     {
         mag = 5;
@@ -53,6 +54,18 @@ public class PlayerGun : MonoBehaviour
                 print("full");
             }
         }
+
+        //shouting
+        if (Input.GetKeyDown("f"))
+        {
+            print("attempted shout");
+            Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
+            {
+                print("Shout Heard");
+                hit.transform.gameObject.SendMessage("Command", SendMessageOptions.DontRequireReceiver);
+           }
+        }
     }
     //--------------------------------------------------------------
     void Shoot()
@@ -71,7 +84,7 @@ public class PlayerGun : MonoBehaviour
             anim.SetTrigger("Fire");// shoots - have to do twice to unflag the trigger, else animation seems to repeat
         }
         //Raycast here
-        RaycastHit hit;
+        
         Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out hit))

@@ -13,7 +13,8 @@ public class EnemyController : MonoBehaviour
     public Material Red;
     void Start()
     {
-        StartCoroutine(Change());
+       // StartCoroutine(Change());
+       // StartCoroutine(Change());
     }
 
     // Update is called once per frame
@@ -29,7 +30,7 @@ public class EnemyController : MonoBehaviour
         maxTime = Random.Range(0, 5);
         transform.Translate(Vector3.forward * speed1);
         transform.Translate(Vector3.right * speed2);
-        GetComponent<Renderer>().material = Red;
+        // GetComponent<Renderer>().material = Red;
         yield return new WaitForSeconds(maxTime);
         StartCoroutine(Change());
     }
