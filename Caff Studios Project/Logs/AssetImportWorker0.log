@@ -15,11 +15,11 @@ C:/Users/keith/Documents/GitHub/CaffStudios21T2/Caff Studios Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57107
+56680
 Successfully changed project path to: C:/Users/keith/Documents/GitHub/CaffStudios21T2/Caff Studios Project
 C:/Users/keith/Documents/GitHub/CaffStudios21T2/Caff Studios Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -36,1482 +36,308 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001878 seconds.
+Registered in 0.001986 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
+- Completed reload, in  1.117 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005500 seconds.
+Registered in 0.004595 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.471 seconds
+- Completed reload, in  1.265 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.7 MB.
-System memory in use after: 170.4 MB.
+System memory in use before: 171.6 MB.
+System memory in use after: 171.4 MB.
 
 Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 3864.
-Total: 3.455900 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.140600 ms MarkObjects: 2.531500 ms  DeleteObjects: 0.441100 ms)
+Total: 3.476500 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.150200 ms MarkObjects: 2.539200 ms  DeleteObjects: 0.435500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Mats/Red.mat
-  artifactKey: Guid(aee35609ca444ea43b7fb745a7ecd655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/Red.mat using Guid(aee35609ca444ea43b7fb745a7ecd655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c104330d0cfb493d98782aa7c3735a15') in 0.234908 seconds
-  Import took 0.239969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Mats/White.mat
-  artifactKey: Guid(22b96df14ac11f64bb86e082b7d517b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/White.mat using Guid(22b96df14ac11f64bb86e082b7d517b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10bf88b5f4417dc90cb5ae1e7866253') in 0.010737 seconds
-  Import took 0.016161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Mats/Black.mat
-  artifactKey: Guid(11db61eab356ad641b9e7905f2f967dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/Black.mat using Guid(11db61eab356ad641b9e7905f2f967dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486cab30607e4dd3775649654ac5288') in 0.013464 seconds
-  Import took 0.021593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Mats/Floor.mat
-  artifactKey: Guid(36370e537239a80498e9b66e7ae1cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/Floor.mat using Guid(36370e537239a80498e9b66e7ae1cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3360d8d2eb826ef7c3d129bc1451ba5') in 0.011587 seconds
-  Import took 0.017876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001517 seconds.
-  path: Assets/Mats/Floor.mat
-  artifactKey: Guid(36370e537239a80498e9b66e7ae1cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/Floor.mat using Guid(36370e537239a80498e9b66e7ae1cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3360d8d2eb826ef7c3d129bc1451ba5') in 0.011958 seconds
-  Import took 0.017841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.698473 seconds.
-  path: Assets/Prefabs/Monitor_Wall_01_01.prefab
-  artifactKey: Guid(8552d05fe101d30419727cbfef6cb292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monitor_Wall_01_01.prefab using Guid(8552d05fe101d30419727cbfef6cb292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f7ed9ed03467930ff246f464ac7dc9') in 0.076609 seconds
-  Import took 0.084717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Prefabs/white board.fbx
-  artifactKey: Guid(ee418fc83fe7397439a3a892103fcf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/white board.fbx using Guid(ee418fc83fe7397439a3a892103fcf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44985a8afaacc71945eff87eef9c721') in 0.145207 seconds
-  Import took 0.153999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Prefabs/unity bin.fbx
-  artifactKey: Guid(941132304767fc648813f944ac24f3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/unity bin.fbx using Guid(941132304767fc648813f944ac24f3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9376e90bec5350f6aeebbe32ff58023') in 0.058095 seconds
-  Import took 0.063410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.154695 seconds.
-  path: Assets/Free asset/Soja Exiles
-  artifactKey: Guid(3461d2873dd1765438ce2becdb62f9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles using Guid(3461d2873dd1765438ce2becdb62f9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7966f33a68035cf1e900bb8f14d79b84') in 0.002085 seconds
-  Import took 0.007593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.762880 seconds.
-  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office
-  artifactKey: Guid(62ae461a3bf21eb43b6357a6bf604d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office using Guid(62ae461a3bf21eb43b6357a6bf604d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce5c30c8f870bc929570393d70252cb') in 0.001926 seconds
-  Import took 0.008216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.058588 seconds.
-  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs
-  artifactKey: Guid(16f99467dc99ccc4480cfb5bc2e69b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs using Guid(16f99467dc99ccc4480cfb5bc2e69b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61838b5ea4caa3249de4373cd1040d7b') in 0.002201 seconds
-  Import took 0.009493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.462846 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office
-  artifactKey: Guid(d4db7877a8697944094438d7c630cba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office using Guid(d4db7877a8697944094438d7c630cba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4651aa7f14cde5c7e467f4ed1d2f22e5') in 0.001830 seconds
-  Import took 0.007726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.696235 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Prefabs
-  artifactKey: Guid(23a8176d840a623478c20c14ac6bf77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Prefabs using Guid(23a8176d840a623478c20c14ac6bf77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9603e577c28ab4b6b282083486d4e7ca') in 0.002197 seconds
-  Import took 0.011523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.235597 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Prefabs/Furniture
-  artifactKey: Guid(506204c74e5db5d4988aa75924ccf10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Prefabs/Furniture using Guid(506204c74e5db5d4988aa75924ccf10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c2f9e6c10ea2ac9ec702d5a40578af') in 0.001890 seconds
-  Import took 0.008796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054671 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Prefabs/Furniture/Lobby Sorting Table_01_02.prefab
-  artifactKey: Guid(63cce22401f3d5349b40fb6e19c47127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Prefabs/Furniture/Lobby Sorting Table_01_02.prefab using Guid(63cce22401f3d5349b40fb6e19c47127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63763a1edad95570799aaac6ba790ef') in 0.033737 seconds
-  Import took 0.041378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.171492 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Models/INT_01.fbx
-  artifactKey: Guid(726f87a21f117684fa009580c3aa3a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Models/INT_01.fbx using Guid(726f87a21f117684fa009580c3aa3a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27af4fdf0d1709330d0c44cc073e053') in 0.050485 seconds
-  Import took 0.058789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.165656 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Materials/BlackPlastic_PO.mat
-  artifactKey: Guid(2d7bf267666325649a1e4f9952189283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Materials/BlackPlastic_PO.mat using Guid(2d7bf267666325649a1e4f9952189283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25dab0aedfc901d1b2b45b85d1fe32d') in 0.016525 seconds
-  Import took 0.021951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Materials/Box_02.mat
-  artifactKey: Guid(80c50fef565434547ae38ba4df7c1a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Materials/Box_02.mat using Guid(80c50fef565434547ae38ba4df7c1a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37ad3c89697fb3f8407b1a2faf4c551') in 0.016020 seconds
-  Import took 0.023089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Materials/GreyPlastic_PO.mat
-  artifactKey: Guid(5686fbc94119a4b43807de54362d9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Materials/GreyPlastic_PO.mat using Guid(5686fbc94119a4b43807de54362d9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beeed60df84c31465771ed1f00bb864') in 0.022636 seconds
-  Import took 0.030984 seconds .
+  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Papers/Paper Cluster_04.prefab
+  artifactKey: Guid(2d738835b5dc08f498df53c3f1482119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Papers/Paper Cluster_04.prefab using Guid(2d738835b5dc08f498df53c3f1482119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f25ba5d1347081fdf12b8845defaa3') in 0.200512 seconds
+  Import took 0.205530 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000397 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Materials/Box_01.mat
-  artifactKey: Guid(01df97d0ef146f84a9be741eaee4774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Materials/Box_01.mat using Guid(01df97d0ef146f84a9be741eaee4774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaebfc93125e51ac69fcfd610d9556a') in 0.012835 seconds
-  Import took 0.019154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009051 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Materials/GreyPlastic_PO.mat
-  artifactKey: Guid(5686fbc94119a4b43807de54362d9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Materials/GreyPlastic_PO.mat using Guid(5686fbc94119a4b43807de54362d9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beeed60df84c31465771ed1f00bb864') in 0.016458 seconds
-  Import took 0.023580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.036279 seconds.
-  path: Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs
-  artifactKey: Guid(08dbf9f15778ce5489376fc59f251981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs using Guid(08dbf9f15778ce5489376fc59f251981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e22eb2971aa42dd7df7738128209f2') in 0.002026 seconds
-  Import took 0.008415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.428026 seconds.
-  path: Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture
-  artifactKey: Guid(48921660daec89245b8129aeb37b4eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture using Guid(48921660daec89245b8129aeb37b4eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16b69ff83b6ed3410cf025c560dc1a2') in 0.001724 seconds
-  Import took 0.007457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.034617 seconds.
-  path: Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture/Seating
-  artifactKey: Guid(831d898130c86fa41a57cb04be918711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture/Seating using Guid(831d898130c86fa41a57cb04be918711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8f617e514a8b44b1ac20a789cc68f6') in 0.001868 seconds
-  Import took 0.007459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052525 seconds.
-  path: Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture/Seating/Stool Round_Blue.prefab
-  artifactKey: Guid(d098d97126e0c7644ba363e7f2b19295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture/Seating/Stool Round_Blue.prefab using Guid(d098d97126e0c7644ba363e7f2b19295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66d63d254a4e2a61f66332b79b0e37c') in 0.017156 seconds
-  Import took 0.022653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture/Seating/Stool Round_Red.prefab
-  artifactKey: Guid(c66b7e5a27a9e2341a9aa532e4a84cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/NY Style Pizza SE/Prefabs/Furniture/Seating/Stool Round_Red.prefab using Guid(c66b7e5a27a9e2341a9aa532e4a84cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fdda9c97091e2305ce2f47ac516d8e') in 0.025263 seconds
-  Import took 0.031940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.791779 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs
-  artifactKey: Guid(f10e34ceac986d646bfc9cb1301ff9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs using Guid(f10e34ceac986d646bfc9cb1301ff9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb6f652c97d1200310ccdd4aae3f4d7') in 0.001910 seconds
-  Import took 0.007253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.994072 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture
-  artifactKey: Guid(ac778cc8b2f1cb44186a2a5e9459cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture using Guid(ac778cc8b2f1cb44186a2a5e9459cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0bc50a4b2e8724df313f3725d365a0') in 0.002120 seconds
-  Import took 0.011045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001729 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture
-  artifactKey: Guid(ac778cc8b2f1cb44186a2a5e9459cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture using Guid(ac778cc8b2f1cb44186a2a5e9459cbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0bc50a4b2e8724df313f3725d365a0') in 0.001649 seconds
-  Import took 0.008953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.947341 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Tables
-  artifactKey: Guid(fcc3175f7d8b390428385510b097c79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Tables using Guid(fcc3175f7d8b390428385510b097c79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01fa125a31f585886ebd074c8f4f34a') in 0.001889 seconds
-  Import took 0.008446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048900 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Tables/Table_Standing_PD_01_01.prefab
-  artifactKey: Guid(c9b8e032919c7de42be444a55b487e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Tables/Table_Standing_PD_01_01.prefab using Guid(c9b8e032919c7de42be444a55b487e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20babd4e4079674e708438c1a768cf89') in 0.045127 seconds
-  Import took 0.051897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.460328 seconds.
-  path: Assets/Free asset/Soja Exiles/Playground/Prefabs
-  artifactKey: Guid(f9f44ad59b827ff42a3556a70c973e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Playground/Prefabs using Guid(f9f44ad59b827ff42a3556a70c973e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd21dbe08f1839c22c0d30f6f4f490e0') in 0.001794 seconds
-  Import took 0.008881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.182100 seconds.
-  path: Assets/Free asset/Soja Exiles/Playground/Prefabs/Build Kit
-  artifactKey: Guid(ae2b46f3b69f3d440a3edec51f8b4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Playground/Prefabs/Build Kit using Guid(ae2b46f3b69f3d440a3edec51f8b4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad325ab8f0c7e7720241a9dfad260234') in 0.002011 seconds
-  Import took 0.008442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.714113 seconds.
-  path: Assets/Free asset/Soja Exiles/Playground/Prefabs/Build Kit/Playground
-  artifactKey: Guid(6aa36374a8467ff458f3838468590f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Playground/Prefabs/Build Kit/Playground using Guid(6aa36374a8467ff458f3838468590f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9439f92a232310219b1e9320fc96e1') in 0.002109 seconds
-  Import took 0.008603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.249925 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs
-  artifactKey: Guid(87f7fee3668c21d4a821c1734a8d674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs using Guid(87f7fee3668c21d4a821c1734a8d674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d159483d350f3ccc2a793e8f64b5604') in 0.001794 seconds
-  Import took 0.007746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068037 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Floor Frame.prefab
-  artifactKey: Guid(f2145c0761dcd3b45b22ccbcdb5ad43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Floor Frame.prefab using Guid(f2145c0761dcd3b45b22ccbcdb5ad43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b661108f7ae587d1bcfca0f46e9ccf9') in 0.026854 seconds
-  Import took 0.032633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Stand.prefab
-  artifactKey: Guid(b2f2a561d43cc1941be740634e94c0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Stand.prefab using Guid(b2f2a561d43cc1941be740634e94c0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880abf37b7e2be3902b98fcbac16ab37') in 0.030426 seconds
-  Import took 0.035464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Frame_03.prefab
-  artifactKey: Guid(b9b3ae9fb3c8020488af00e065113e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Frame_03.prefab using Guid(b9b3ae9fb3c8020488af00e065113e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa7a91393b458a97545f1afeaa78004') in 0.024021 seconds
-  Import took 0.030090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Lamp_Demo.prefab
-  artifactKey: Guid(31e437176ab39ec479d5d2ea496b7fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Lamp_Demo.prefab using Guid(31e437176ab39ec479d5d2ea496b7fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45d1f62c55c6e6b508d7fc33d2958d9') in 0.011270 seconds
-  Import took 0.020652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Frame_02.prefab
-  artifactKey: Guid(cb02dcd57dbb0ce47b45dbc7e203867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Frame_02.prefab using Guid(cb02dcd57dbb0ce47b45dbc7e203867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a961ec5288ba035891dba0d547dc083') in 0.016923 seconds
-  Import took 0.022579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Frame_01.prefab
-  artifactKey: Guid(bc783c6b3720403489eaf57d2168e3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Frame_01.prefab using Guid(bc783c6b3720403489eaf57d2168e3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc173bf1712c104768dafd857dc0acd') in 0.018722 seconds
-  Import took 0.029847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.918934 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit
-  artifactKey: Guid(0632f87d3f2fa14499379bf9b17fa8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit using Guid(0632f87d3f2fa14499379bf9b17fa8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c8aceff14e10afa3caf17b3ac54ac4') in 0.002328 seconds
-  Import took 0.009119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.951348 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Courthouse Ext.fbx
-  artifactKey: Guid(9d72afc9fed9288409f9b23c8dbb0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Courthouse Ext.fbx using Guid(9d72afc9fed9288409f9b23c8dbb0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6070bf2afcc5a680f8d3e74f7fffb816') in 0.150763 seconds
-  Import took 0.156624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Lamp_Demo.fbx
-  artifactKey: Guid(5eb796d585e27324695a5c4e3d7f9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Lamp_Demo.fbx using Guid(5eb796d585e27324695a5c4e3d7f9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dafa1360dbf0d89dc8c447253f0cc94') in 0.039740 seconds
-  Import took 0.044647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Frame.fbx
-  artifactKey: Guid(30832d13c4e3bc14ea6e8b9902e5a7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Frame.fbx using Guid(30832d13c4e3bc14ea6e8b9902e5a7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667d5fb8c2ecf890d6067b2ab859d225') in 0.060275 seconds
-  Import took 0.065477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Floor Frame.fbx
-  artifactKey: Guid(a1e898d1c64241c4aa4c48129efd2b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Floor Frame.fbx using Guid(a1e898d1c64241c4aa4c48129efd2b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac37cf63016c09fdc0e9df0cc952885') in 0.046061 seconds
-  Import took 0.053060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Stand.fbx
-  artifactKey: Guid(e20a59d7db83d4942bc1f9b2b54c19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Models/Stand.fbx using Guid(e20a59d7db83d4942bc1f9b2b54c19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a048521c530b0895dffd22a3dbe12e') in 0.057292 seconds
-  Import took 0.062124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.495063 seconds.
-  path: Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs
-  artifactKey: Guid(952648a356a0ae445a6da8fb89a2e2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs using Guid(952648a356a0ae445a6da8fb89a2e2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20ffa24d3291981eec9de3ddc5cab1f') in 0.001697 seconds
-  Import took 0.007479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.341147 seconds.
-  path: Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs/Furniture
-  artifactKey: Guid(9117fbfdbcad9494e8a1c472ee707d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs/Furniture using Guid(9117fbfdbcad9494e8a1c472ee707d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186bb0b7ea8209440a5d1ddfc6aee1d6') in 0.001663 seconds
-  Import took 0.007080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.118688 seconds.
-  path: Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs/Furniture/Seating
-  artifactKey: Guid(3736a2c8bd1b8c54d89da0b6385fd0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs/Furniture/Seating using Guid(3736a2c8bd1b8c54d89da0b6385fd0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbd4851ae860bbe20ecac2677ac14c5') in 0.001985 seconds
-  Import took 0.007951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071148 seconds.
-  path: Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs/Furniture/Seating/Stool_WBG_02_02.prefab
-  artifactKey: Guid(373000de14295ca45a97d7802e820b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Bar Interior Exterior Kit/Prefabs/Furniture/Seating/Stool_WBG_02_02.prefab using Guid(373000de14295ca45a97d7802e820b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d15ea0e89a3f639facf4b0f7267b2a') in 0.017964 seconds
-  Import took 0.024594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.566900 seconds.
-  path: Assets/Free asset/Soja Exiles/Barber Shop Prop and Build Kit/Prefabs
-  artifactKey: Guid(39080a6aad137ed47b3dfde5478c6274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Barber Shop Prop and Build Kit/Prefabs using Guid(39080a6aad137ed47b3dfde5478c6274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b0fdd6c4e8186f189820466a6eb720') in 0.001809 seconds
-  Import took 0.007508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.092998 seconds.
-  path: Assets/Free asset/Soja Exiles/Barber Shop Prop and Build Kit/Prefabs/Furniture
-  artifactKey: Guid(9038f28f4a4f7c243bb6e37056cdf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Barber Shop Prop and Build Kit/Prefabs/Furniture using Guid(9038f28f4a4f7c243bb6e37056cdf91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f4c4c4a4f22a53448037b734d14e8f') in 0.001751 seconds
-  Import took 0.007852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.861028 seconds.
-  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Furniture
-  artifactKey: Guid(308651211a89f5e43ae3894de72a982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Furniture using Guid(308651211a89f5e43ae3894de72a982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad666cedb44300ad1d687589cdd08f3') in 0.001930 seconds
-  Import took 0.007633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060784 seconds.
-  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Furniture/Office Table.prefab
-  artifactKey: Guid(8b6e26967d2865d46a405aa89b49d67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Furniture/Office Table.prefab using Guid(8b6e26967d2865d46a405aa89b49d67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8788bf9f00442dc4f483b71c345bd8') in 0.021767 seconds
-  Import took 0.028532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Furniture/Wheeled Chair.prefab
-  artifactKey: Guid(a914eb90b69c1c3438a263d69b294043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Furniture/Wheeled Chair.prefab using Guid(a914eb90b69c1c3438a263d69b294043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12083737414b0590401b073e100152c') in 0.027077 seconds
-  Import took 0.032109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.006467 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs
-  artifactKey: Guid(1e9199c64cc88b84683c529b383da19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs using Guid(1e9199c64cc88b84683c529b383da19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b2aa3c69363fe80104a164643d7918') in 0.001833 seconds
-  Import took 0.007771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096639 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Base Room Scene.prefab
-  artifactKey: Guid(42ded4a9b41e76d46bb90a3e35072cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Base Room Scene.prefab using Guid(42ded4a9b41e76d46bb90a3e35072cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84569c1a4b89a7b65769a27e72306cda') in 0.012621 seconds
-  Import took 0.019980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Base Scene.prefab
-  artifactKey: Guid(6b5e9772e973b514993c495d4471494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Base Scene.prefab using Guid(6b5e9772e973b514993c495d4471494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239e94e3bf31d5b630251693cb04eec7') in 0.023168 seconds
-  Import took 0.030865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Buliding FloorPlane.prefab
-  artifactKey: Guid(fc813e1d3f19bfc449ee6e7a5d8e579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Buliding FloorPlane.prefab using Guid(fc813e1d3f19bfc449ee6e7a5d8e579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f1c9fc4c1457516706be19272b7b2f') in 0.015853 seconds
-  Import took 0.022106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Concrete Plane.prefab
-  artifactKey: Guid(0a39e6bc93e859145a2f868ff0277c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Concrete Plane.prefab using Guid(0a39e6bc93e859145a2f868ff0277c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e195ee3520594b5dcdbdc2956e44dc') in 0.017918 seconds
-  Import took 0.025264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Tabel.prefab
-  artifactKey: Guid(02d1152fb6869da41a6849d5dd239667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Tabel.prefab using Guid(02d1152fb6869da41a6849d5dd239667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59538dab8bcf1e442eb0559c9ba820d') in 0.020438 seconds
-  Import took 0.026809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Tiled Floor.prefab
-  artifactKey: Guid(51d3051b1d589214e960ae74c8933521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Tiled Floor.prefab using Guid(51d3051b1d589214e960ae74c8933521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65424d5de3faa50e1be3d991b49fcedb') in 0.013483 seconds
-  Import took 0.019593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/office chair.prefab
-  artifactKey: Guid(99a0f1488ea2c1d47b7e9f7190961e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/office chair.prefab using Guid(99a0f1488ea2c1d47b7e9f7190961e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facdab8c9468177a0b4f628b767ab7b8') in 0.010138 seconds
-  Import took 0.017340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Large Floor.prefab
-  artifactKey: Guid(ee987da6efab07d49bc9fc59e287f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Large Floor.prefab using Guid(ee987da6efab07d49bc9fc59e287f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2d3bf4ca5b0b59921169a08cbcc3c') in 0.020325 seconds
-  Import took 0.026993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/FPS By Acacia Developer.prefab
-  artifactKey: Guid(75f95b5427597c94f9e9e4847efb717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/FPS By Acacia Developer.prefab using Guid(75f95b5427597c94f9e9e4847efb717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75debd358c65fb170ddc0c9b39b21ac') in 0.017116 seconds
-  Import took 0.026092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.228069 seconds.
-  path: Assets/Free asset/HQ Laptop/Laptop_black.prefab
-  artifactKey: Guid(35e7ce7e1bb8eeb4f8e896fdfa8176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/HQ Laptop/Laptop_black.prefab using Guid(35e7ce7e1bb8eeb4f8e896fdfa8176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d1ed50ae7189844694c6d075d28f91') in 0.100795 seconds
-  Import took 0.108762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Free asset/HQ Laptop/Laptop_white.prefab
-  artifactKey: Guid(fec0b93bb0c53f443bf3177dd2a03d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/HQ Laptop/Laptop_white.prefab using Guid(fec0b93bb0c53f443bf3177dd2a03d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0223652b4788f175b12fd54536a47e8c') in 0.079914 seconds
-  Import took 0.087207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Free asset/HQ Laptop/Laptop_black_off.prefab
-  artifactKey: Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/HQ Laptop/Laptop_black_off.prefab using Guid(1e96745f2b6e038469341687cbb28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8f4c9c5390af1a36a3d45e956dbbad') in 0.074190 seconds
-  Import took 0.084732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Free asset/HQ Laptop/Laptop_white_off.prefab
-  artifactKey: Guid(71d7c0c979d468641afeec46db205a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/HQ Laptop/Laptop_white_off.prefab using Guid(71d7c0c979d468641afeec46db205a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41a5dc7753d5ac544b0fcb2b1163c2b') in 0.073687 seconds
-  Import took 0.081790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.912803 seconds.
-  path: Assets/Free asset/Soja Exiles/NY Style Pizza SE
-  artifactKey: Guid(edb0f9ef13c3fa24b935d49c4c035cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/NY Style Pizza SE using Guid(edb0f9ef13c3fa24b935d49c4c035cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1ea3510a5a8ca6e8cfe56f8d126008') in 0.001977 seconds
-  Import took 0.009309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.059822 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department
-  artifactKey: Guid(22dbdb89ce96c564a9749330ddcbb9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department using Guid(22dbdb89ce96c564a9749330ddcbb9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d0e13d48c3fe40579c088fbc733cf3') in 0.002132 seconds
-  Import took 0.011470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002195 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department
-  artifactKey: Guid(22dbdb89ce96c564a9749330ddcbb9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department using Guid(22dbdb89ce96c564a9749330ddcbb9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d0e13d48c3fe40579c088fbc733cf3') in 0.002610 seconds
-  Import took 0.010485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.037164 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props
-  artifactKey: Guid(7945c65a7bfe0dd4ba735fbf3eb4f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props using Guid(7945c65a7bfe0dd4ba735fbf3eb4f7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daa21ea2bc999fee26bde7f8025ec2e') in 0.002142 seconds
-  Import took 0.011401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.492893 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Donuts
-  artifactKey: Guid(ff6a607764350bd4eab7eccb5e23646f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Donuts using Guid(ff6a607764350bd4eab7eccb5e23646f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb636badd171ea561cd96481bb2ffb47') in 0.003898 seconds
-  Import took 0.011546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.126831 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Donuts/Donut_03.prefab
-  artifactKey: Guid(50c652ba447c6b84b9ac69a3435abcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Donuts/Donut_03.prefab using Guid(50c652ba447c6b84b9ac69a3435abcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae8ce9d1e7aa7956a5f59e93319e4ea') in 0.010860 seconds
-  Import took 0.016756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Donuts/Donut_08.prefab
-  artifactKey: Guid(f44281d8b22cf454dbca434ab183dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Donuts/Donut_08.prefab using Guid(f44281d8b22cf454dbca434ab183dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26611331980611f5965c3113ddf1a9b') in 0.010547 seconds
-  Import took 0.016116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.490170 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large
-  artifactKey: Guid(3fa178cff1437c548885d557d7254999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large using Guid(3fa178cff1437c548885d557d7254999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb2bbe544dabeecac93e7917def9699') in 0.002082 seconds
-  Import took 0.008006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068983 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Evidence_PD_01_02.prefab
-  artifactKey: Guid(8740ae8e9deb9a84082e15d0cc619276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Evidence_PD_01_02.prefab using Guid(8740ae8e9deb9a84082e15d0cc619276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c395890b183eac7db30ace4021364a2') in 0.020905 seconds
-  Import took 0.026955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Evidence_PD_02_03.prefab
-  artifactKey: Guid(01515ac46483068439de63ddd128cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Evidence_PD_02_03.prefab using Guid(01515ac46483068439de63ddd128cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef19e2373a1f2ea903118bf2cf00b4f') in 0.031782 seconds
-  Import took 0.037218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Projector Screen_PD_01_01.prefab
-  artifactKey: Guid(26c77e53e56d90f48b86371a2d1de957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Projector Screen_PD_01_01.prefab using Guid(26c77e53e56d90f48b86371a2d1de957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e88cf326d55d331b162986ad745c75') in 0.017362 seconds
-  Import took 0.023656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Traffic Cone_PD.prefab
-  artifactKey: Guid(d9f744fb29289714199e979f6283800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Traffic Cone_PD.prefab using Guid(d9f744fb29289714199e979f6283800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1d1bde4b10eaff597f3f541a64cccc') in 0.013312 seconds
-  Import took 0.019371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Riot Shield_Police.prefab
-  artifactKey: Guid(ad86363a7b0fcf443a36122cda5e57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Large/Riot Shield_Police.prefab using Guid(ad86363a7b0fcf443a36122cda5e57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537bfff3f85c86d83138fa383171ed6f') in 0.020590 seconds
-  Import took 0.026958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.959986 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Monitors
-  artifactKey: Guid(2882bdb31db97b7459933cf653566860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Monitors using Guid(2882bdb31db97b7459933cf653566860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac786fbda43fd26b358028d818fec0ff') in 0.002038 seconds
-  Import took 0.007804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068119 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Monitors/Monitor_Wall_SM_09.prefab
-  artifactKey: Guid(fef03fdf175d5ec4f9f040400aec7189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Monitors/Monitor_Wall_SM_09.prefab using Guid(fef03fdf175d5ec4f9f040400aec7189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2476823bc78929781b08d638cd8decd9') in 0.011260 seconds
-  Import took 0.017244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Monitors/Multi Monitor Mount_03.prefab
-  artifactKey: Guid(5e83011716e44fd4aa03c08b54e1f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Monitors/Multi Monitor Mount_03.prefab using Guid(5e83011716e44fd4aa03c08b54e1f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ab04a98c885e8c5412c1ec81e104c8') in 0.029390 seconds
-  Import took 0.035469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.920407 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small
-  artifactKey: Guid(2222c03ff8b1b2143b4b067009a25962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small using Guid(2222c03ff8b1b2143b4b067009a25962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1fafda2ce95bb0830f47f452c16b76') in 0.001845 seconds
-  Import took 0.007905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001610 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small
-  artifactKey: Guid(2222c03ff8b1b2143b4b067009a25962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small using Guid(2222c03ff8b1b2143b4b067009a25962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1fafda2ce95bb0830f47f452c16b76') in 0.001684 seconds
-  Import took 0.009107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051068 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Badge_PD_01.prefab
-  artifactKey: Guid(09d91f69d59316f4b8b1931731cbec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Badge_PD_01.prefab using Guid(09d91f69d59316f4b8b1931731cbec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f9b0b16b23ca3b466930fc14de2ae7') in 0.013813 seconds
-  Import took 0.019402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Fingerprint Card Stack.prefab
-  artifactKey: Guid(922719d6f15940b45bddacf14375e988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Fingerprint Card Stack.prefab using Guid(922719d6f15940b45bddacf14375e988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bceda04c17141041f5973498300fbcf') in 0.009842 seconds
-  Import took 0.015139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Dumbell_PD_25.prefab
-  artifactKey: Guid(49f11470e2ca62049bf4329d55504083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Dumbell_PD_25.prefab using Guid(49f11470e2ca62049bf4329d55504083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc403f02895b2476692dafd83fe6d08c') in 0.014227 seconds
-  Import took 0.019898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Projector_PD_01_01.prefab
-  artifactKey: Guid(c3e9bdc2eec86b346b893dfc988632ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Projector_PD_01_01.prefab using Guid(c3e9bdc2eec86b346b893dfc988632ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eadaf19cd08bb058c28fb4c03f66b4a') in 0.024955 seconds
-  Import took 0.031337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Clock_PD_01_01.prefab
-  artifactKey: Guid(0c8e460bbbb4f0d41b1345a9ffde343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Clock_PD_01_01.prefab using Guid(0c8e460bbbb4f0d41b1345a9ffde343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1abaffa88d047e9b07bda768796b0e') in 0.021778 seconds
-  Import took 0.029918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000821 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Phone_PD_01_01.prefab
-  artifactKey: Guid(b82cf286fa7f5024ea569177a717de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Phone_PD_01_01.prefab using Guid(b82cf286fa7f5024ea569177a717de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7932a336a21370e6386ac0d4d8bb61b') in 0.018483 seconds
-  Import took 0.026157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Dumbell_PD_50.prefab
-  artifactKey: Guid(c9f0df6638dcbe54abc9879f3ae6f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Dumbell_PD_50.prefab using Guid(c9f0df6638dcbe54abc9879f3ae6f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4bddc5f29654204e7abc482fb44cd0') in 0.009704 seconds
-  Import took 0.015523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Dumbell_PD_75.prefab
-  artifactKey: Guid(ac1c4a3a126e3454097457aaf3fd0661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Dumbell_PD_75.prefab using Guid(ac1c4a3a126e3454097457aaf3fd0661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befcfa6a717499bea0a8ecaa41c0f422') in 0.012115 seconds
-  Import took 0.019170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Mouse_PD_01_01.prefab
-  artifactKey: Guid(5a979a4fab28d0643ba15527093d153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Mouse_PD_01_01.prefab using Guid(5a979a4fab28d0643ba15527093d153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1497a8050e36dfb57fa0bc8f725d38e') in 0.016743 seconds
-  Import took 0.022751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Police Batton.prefab
-  artifactKey: Guid(98e73a84eab582749ad5057d12a96b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Police Batton.prefab using Guid(98e73a84eab582749ad5057d12a96b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6e0017e2f92fa28fe44be85cc7c0b4') in 0.016823 seconds
-  Import took 0.023178 seconds .
+  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props
+  artifactKey: Guid(41beed4927a2f11419c1788e822e4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props using Guid(41beed4927a2f11419c1788e822e4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654f4376f0507f66afcd1e07de2c6ceb') in 0.001539 seconds
+  Import took 0.006206 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000264 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Keyboard_PD_01_01.prefab
-  artifactKey: Guid(6d00eccd1a67e5545bc9bab18319ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Keyboard_PD_01_01.prefab using Guid(6d00eccd1a67e5545bc9bab18319ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa7e8068386ea7b11b92d8e75ceb251') in 0.009842 seconds
-  Import took 0.016059 seconds .
+  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Papers
+  artifactKey: Guid(54062f08b26ae884ba69e92ef36468e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Papers using Guid(54062f08b26ae884ba69e92ef36468e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cedc8ccd4ee173bce22a29efa380a5') in 0.001778 seconds
+  Import took 0.007099 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/CoffeeMachine_PD_01_01.prefab
-  artifactKey: Guid(3181f0234469e58418ccd512caf31cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/CoffeeMachine_PD_01_01.prefab using Guid(3181f0234469e58418ccd512caf31cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b78c776bb3d1a4ff550a3ba20c96ff3') in 0.019474 seconds
-  Import took 0.025759 seconds .
+  Time since last request: 4.694845 seconds.
+  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Pictures
+  artifactKey: Guid(1ea3f3e9a9985dd40bb550c19dc59f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Pictures using Guid(1ea3f3e9a9985dd40bb550c19dc59f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515ffba4898aad71fdd32761005abd62') in 0.001684 seconds
+  Import took 0.007340 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Police Tape Roll_PD_02.prefab
-  artifactKey: Guid(6404b2befba5cf548a717af7a8c2221d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Props/Small/Police Tape Roll_PD_02.prefab using Guid(6404b2befba5cf548a717af7a8c2221d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e726181c0ba9aab95971556950220cd8') in 0.011210 seconds
-  Import took 0.017755 seconds .
+  Time since last request: 0.000619 seconds.
+  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Pictures
+  artifactKey: Guid(1ea3f3e9a9985dd40bb550c19dc59f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Pictures using Guid(1ea3f3e9a9985dd40bb550c19dc59f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515ffba4898aad71fdd32761005abd62') in 0.001594 seconds
+  Import took 0.007528 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.147301 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Scripts & Animation
-  artifactKey: Guid(9e998ed798e50324f913bb210a5dd37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Scripts & Animation using Guid(9e998ed798e50324f913bb210a5dd37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de27c458de8e739c110ba1513f9bf9b3') in 0.001886 seconds
-  Import took 0.007993 seconds .
+  Time since last request: 0.069677 seconds.
+  path: Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Pictures/Frame Large Land SL 02.prefab
+  artifactKey: Guid(8a6f0d2f5c9726b4c9b4da9beab670fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Sleazy Lawyer Office/Prefabs/Props/Pictures/Frame Large Land SL 02.prefab using Guid(8a6f0d2f5c9726b4c9b4da9beab670fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664cb2101032d801371bcd85fa39b168') in 0.033039 seconds
+  Import took 0.038547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001540 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Scripts & Animation
-  artifactKey: Guid(9e998ed798e50324f913bb210a5dd37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Scripts & Animation using Guid(9e998ed798e50324f913bb210a5dd37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de27c458de8e739c110ba1513f9bf9b3') in 0.001688 seconds
-  Import took 0.008457 seconds .
+  Time since last request: 105.374566 seconds.
+  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers
+  artifactKey: Guid(68623a76b802d4547a32f042e06342fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers using Guid(68623a76b802d4547a32f042e06342fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ecb8f60323d98dbed99b380272af89') in 0.001820 seconds
+  Import took 0.008990 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.113169 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Prefabs/Props
-  artifactKey: Guid(07321190a29a22f45a5d0fe9765959f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Prefabs/Props using Guid(07321190a29a22f45a5d0fe9765959f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9b37df28020d604e6a92b3f7f19fd0') in 0.001745 seconds
-  Import took 0.007337 seconds .
+  Time since last request: 2.206864 seconds.
+  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Metal
+  artifactKey: Guid(e43ec9c97a00aa349a15a91a78f75437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Metal using Guid(e43ec9c97a00aa349a15a91a78f75437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff8ac135822c1a1dce9279974320f90') in 0.002037 seconds
+  Import took 0.011078 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095869 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Prefabs/Props/Box Flat_01_01.prefab
-  artifactKey: Guid(bffc0e90b13f13b44b787a22a5afc328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Prefabs/Props/Box Flat_01_01.prefab using Guid(bffc0e90b13f13b44b787a22a5afc328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad8725917a9a4bb1a4756a728dee9d9') in 0.010787 seconds
-  Import took 0.016748 seconds .
+  Time since last request: 0.000625 seconds.
+  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Metal
+  artifactKey: Guid(e43ec9c97a00aa349a15a91a78f75437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Metal using Guid(e43ec9c97a00aa349a15a91a78f75437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff8ac135822c1a1dce9279974320f90') in 0.001736 seconds
+  Import took 0.015361 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Free asset/Soja Exiles/Post Office/Prefabs/Props/Box_01_01.prefab
-  artifactKey: Guid(78c88a33419661f4c9f34cdb259775f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Post Office/Prefabs/Props/Box_01_01.prefab using Guid(78c88a33419661f4c9f34cdb259775f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9c5f16824a91492b51b89da7416b48') in 0.012901 seconds
-  Import took 0.018467 seconds .
+  Time since last request: 0.059924 seconds.
+  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Metal/Shelf_PD_01_01.prefab
+  artifactKey: Guid(89bb300f95f3bb7419b8f07b048b0b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Metal/Shelf_PD_01_01.prefab using Guid(89bb300f95f3bb7419b8f07b048b0b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14539444887e8eec32a3bfa00199768c') in 0.045275 seconds
+  Import took 0.052799 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.515559 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Antique.mat
-  artifactKey: Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Antique.mat using Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822d27d457a8d394e1ee6ae69ffb2e71') in 0.009361 seconds
-  Import took 0.015359 seconds .
+  Time since last request: 930.354570 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors
+  artifactKey: Guid(9e8e57195a7944e4f96a47a940099c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors using Guid(9e8e57195a7944e4f96a47a940099c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59afd54d1291b2d6ee95f637e8084afb') in 0.002092 seconds
+  Import took 0.008826 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Brick 02.mat
-  artifactKey: Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Brick 02.mat using Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38799c80c5cf0a2df42ed33a156df94f') in 0.010786 seconds
-  Import took 0.015927 seconds .
+  Time since last request: 0.040592 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Ceiling_01.prefab
+  artifactKey: Guid(891c573b0cd33524b9041ed5069b368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Ceiling_01.prefab using Guid(891c573b0cd33524b9041ed5069b368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b84169dfb2bdffbb00fcafcacda7caf') in 0.023261 seconds
+  Import took 0.028779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Glow.mat
-  artifactKey: Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Glow.mat using Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd397686e0e1de146f4f3502bdbd194') in 0.015118 seconds
-  Import took 0.021547 seconds .
+  Time since last request: 0.000419 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Wall_01.prefab
+  artifactKey: Guid(e5b231a5e80154944a789726a2c9465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Wall_01.prefab using Guid(e5b231a5e80154944a789726a2c9465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d2fc4a8906529cc7e64e3d18cfa719') in 0.014815 seconds
+  Import took 0.019988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_4x4.prefab
+  artifactKey: Guid(13ddb8bdb13059144ada03e0a9c73bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_4x4.prefab using Guid(13ddb8bdb13059144ada03e0a9c73bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ab4c6de52dd3db342cd44bc31be89c') in 0.018440 seconds
+  Import took 0.023832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Frame_01.prefab
+  artifactKey: Guid(34a2a7f6281f8bd4793f975af7f57acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Frame_01.prefab using Guid(34a2a7f6281f8bd4793f975af7f57acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b80b18765ca839d78ce7d95a7c694d0') in 0.011172 seconds
+  Import took 0.016678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_3x3.prefab
+  artifactKey: Guid(286f692648d70ce418e5d2cec6d7d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_3x3.prefab using Guid(286f692648d70ce418e5d2cec6d7d304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34eb431565fb41b0eb1ce46db1c77760') in 0.014427 seconds
+  Import took 0.019602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_FloorCeilingFiller_Wall_01.prefab
+  artifactKey: Guid(307c785c2fe7ab54387c4786cb6e85fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_FloorCeilingFiller_Wall_01.prefab using Guid(307c785c2fe7ab54387c4786cb6e85fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08081a3ff4826feb5e7ea967ad50f552') in 0.011236 seconds
+  Import took 0.017048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Entrance.prefab
+  artifactKey: Guid(bf92caa318b13ee4d8a4ca199378291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Entrance.prefab using Guid(bf92caa318b13ee4d8a4ca199378291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd350251b469408443bc2ab3682321efb') in 0.016490 seconds
+  Import took 0.022025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Floor_01.prefab
+  artifactKey: Guid(e752b1d3edb056b44898f37ac162a18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Floor_01.prefab using Guid(e752b1d3edb056b44898f37ac162a18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0906344f0b83080a202f6584e30c9d87') in 0.014811 seconds
+  Import took 0.021184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Wall_Window_01.prefab
+  artifactKey: Guid(18180f9a1daee89489f183b2def0b62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Demo_Wall_Window_01.prefab using Guid(18180f9a1daee89489f183b2def0b62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3565dfa73a70d82075616139f58ee26f') in 0.016154 seconds
+  Import took 0.022029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_2x2.prefab
+  artifactKey: Guid(9e04409f60b64e34c8389653ba4a6e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_2x2.prefab using Guid(9e04409f60b64e34c8389653ba4a6e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5012ba453e94ffe8710a6408f93ad2b1') in 0.017578 seconds
+  Import took 0.022803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_1x1.prefab
+  artifactKey: Guid(bb5ae90f5c79d0341902b59de02a6410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Interiors/Int_Pillar_1x1.prefab using Guid(bb5ae90f5c79d0341902b59de02a6410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b5e9a3bd9aff62b31bbff65c5a4ad9') in 0.017249 seconds
+  Import took 0.023746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.058606 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Ext Into Int/ExtInt_Demo_DoorBoarder_01.prefab
+  artifactKey: Guid(7d8a96f37599ee744992cd751de5fe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Ext Into Int/ExtInt_Demo_DoorBoarder_01.prefab using Guid(7d8a96f37599ee744992cd751de5fe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674d29c3e39207765e54dd6f4df37101') in 0.014504 seconds
+  Import took 0.020701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Ext Into Int/WindowFrame_Demo_01.prefab
+  artifactKey: Guid(049b6757d2114684297025ec0281da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Ext Into Int/WindowFrame_Demo_01.prefab using Guid(049b6757d2114684297025ec0281da9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d02a59bb1d097c5faebd14498c8317') in 0.028645 seconds
+  Import took 0.035225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Ext Into Int/ExtInt_Demo_DoorFrame_01.prefab
+  artifactKey: Guid(5bdb9bd4c058cca4b8861bd48f86a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/Soja Exiles/Brick Project Demo Build Kit/Prefabs/Demo Build Kit/Ext Into Int/ExtInt_Demo_DoorFrame_01.prefab using Guid(5bdb9bd4c058cca4b8861bd48f86a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9011d1871ca94d1c24e798f47a31751f') in 0.027313 seconds
+  Import took 0.034977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.950467 seconds.
+  path: Assets/Free asset/ExampleAssets/Prefabs
+  artifactKey: Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs using Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec67ef625f3c93b382b5d424c18956c') in 0.001478 seconds
+  Import took 0.006987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001211 seconds.
+  path: Assets/Free asset/ExampleAssets/Prefabs
+  artifactKey: Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs using Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec67ef625f3c93b382b5d424c18956c') in 0.001466 seconds
+  Import took 0.007405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061684 seconds.
+  path: Assets/Free asset/ExampleAssets/Prefabs/Construction Light Low.prefab
+  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs/Construction Light Low.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0580c703cbc8fd05c2df493d5dc6d72') in 0.020925 seconds
+  Import took 0.026273 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000345 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Brushed Chrome.mat
-  artifactKey: Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Brushed Chrome.mat using Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c99c83d52c54714ebc485f4a609cc6') in 0.009731 seconds
-  Import took 0.015642 seconds .
+  path: Assets/Free asset/ExampleAssets/Prefabs/Workshop Set.prefab
+  artifactKey: Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs/Workshop Set.prefab using Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c01de2b7b93ffd346f102714f2b5f30') in 0.021732 seconds
+  Import took 0.026541 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Texture-Map SE.mat
-  artifactKey: Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Texture-Map SE.mat using Guid(5f01895f1ecb58445b3aa62be24d6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d245147c81658a46b4b93512f10c374') in 0.017039 seconds
-  Import took 0.022838 seconds .
+  Time since last request: 0.000341 seconds.
+  path: Assets/Free asset/ExampleAssets/Prefabs/Paint Supplies.prefab
+  artifactKey: Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs/Paint Supplies.prefab using Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559aac71f5e1197eb270ef87b4b25f32') in 0.020391 seconds
+  Import took 0.025558 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/glass 02.mat
-  artifactKey: Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/glass 02.mat using Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef8e2e01c583b57511dbabe117e7245') in 0.009262 seconds
-  Import took 0.015467 seconds .
+  Time since last request: 0.000295 seconds.
+  path: Assets/Free asset/ExampleAssets/Prefabs/Workbench_LOD0.prefab
+  artifactKey: Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs/Workbench_LOD0.prefab using Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757f05fa8eee13fcd7a3a2d15183c460') in 0.023926 seconds
+  Import took 0.030322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Brick mute 02.mat
-  artifactKey: Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Brick mute 02.mat using Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cf417abfb340385c159d9c9e37a5d8') in 0.010625 seconds
-  Import took 0.016393 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/Free asset/ExampleAssets/Prefabs/Workbench.prefab
+  artifactKey: Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs/Workbench.prefab using Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e256a412129236146da72b42744c0361') in 0.030748 seconds
+  Import took 0.036764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/wood 02.mat
-  artifactKey: Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/wood 02.mat using Guid(26f1b36be16f30d409f9ab1a7d20a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e6e35492c5c050ef8031143ca50815') in 0.011818 seconds
-  Import took 0.018133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Glass.mat
-  artifactKey: Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Glass.mat using Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd596caa50b08ede1df9b5d22bd99eeab') in 0.014928 seconds
-  Import took 0.021320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Wood Floor 01.mat
-  artifactKey: Guid(049ac0e838cb3a342887cf48a2b06db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Wood Floor 01.mat using Guid(049ac0e838cb3a342887cf48a2b06db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d402a6ff9b8651f416fedfe8117273e') in 0.012112 seconds
-  Import took 0.017621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Marble 01.mat
-  artifactKey: Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Marble 01.mat using Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a4b1f5d5715571f3dfe50a84da5bc0') in 0.016048 seconds
-  Import took 0.022255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Building Floor Tile.mat
-  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab628b713bb7b7272f6dc1e69ad2f66a') in 0.012704 seconds
-  Import took 0.018094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Light Wall 01.mat
-  artifactKey: Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Light Wall 01.mat using Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc828a520898762190f947fab49fe10f') in 0.010765 seconds
-  Import took 0.016176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Plastic Thick.mat
-  artifactKey: Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Plastic Thick.mat using Guid(65d72af2f614466478d9d8d8d7593b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1da8ac1192aac8c2746bf92dd08d3b') in 0.010167 seconds
-  Import took 0.015579 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/Free asset/ExampleAssets/Prefabs/Props.prefab
+  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bed7685b1eb27afbeb42eb8529620c') in 0.044453 seconds
+  Import took 0.051559 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000340 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/wood 03.mat
-  artifactKey: Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/wood 03.mat using Guid(a64c40f22fb83f041b7c584055b61c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2364495833ac57de8a6d0f1cc7684b5b') in 0.014146 seconds
-  Import took 0.020788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Black.mat
-  artifactKey: Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Black.mat using Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489f2964bbddf6f6edcaa0b4cbcbfb07') in 0.013593 seconds
-  Import took 0.020713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/glass 03.mat
-  artifactKey: Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/glass 03.mat using Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eada4d49ca831bed5605b18fd8a3aac') in 0.006534 seconds
-  Import took 0.012966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Texture-map-SE.mat
-  artifactKey: Guid(9fdfa6a0558621048a6fd66286dceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Texture-map-SE.mat using Guid(9fdfa6a0558621048a6fd66286dceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50bef8c0dac5a84a0e82570105df8b9') in 0.010488 seconds
-  Import took 0.019549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Concrete.mat
-  artifactKey: Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Concrete.mat using Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6fc153eca8a7fb36ace146a4fb6716') in 0.012986 seconds
-  Import took 0.018543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Gold.mat
-  artifactKey: Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Materials/Gold.mat using Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cce2c45585f518f881ee1fb744296c') in 0.008147 seconds
-  Import took 0.014147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.457145 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire
-  artifactKey: Guid(edc916d7e70f29947bf61fc90fa31777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire using Guid(edc916d7e70f29947bf61fc90fa31777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a144dff5b21c5e8c0650e013aa4425a') in 0.001774 seconds
-  Import took 0.007560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.151862 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire/Candle Flame.prefab
-  artifactKey: Guid(76ba1ca0f3bd5de408854a87c409fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire/Candle Flame.prefab using Guid(76ba1ca0f3bd5de408854a87c409fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e98468bdf782750a83a0e6077fe235') in 0.007447 seconds
-  Import took 0.013315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire/Small Flame.prefab
-  artifactKey: Guid(b62dfcfd3c5f1934aa61c3c462ee104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire/Small Flame.prefab using Guid(b62dfcfd3c5f1934aa61c3c462ee104a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094230107449a81385ee90e0aa8d409c') in 0.005184 seconds
-  Import took 0.011699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire/Torch Flame.prefab
-  artifactKey: Guid(65b0d7b3c17d2854f87e4c8416f798fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/SE Basic Assets/Prefabs/Fire/Torch Flame.prefab using Guid(65b0d7b3c17d2854f87e4c8416f798fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0ec39dd60a0d07ea65ba448939bb19') in 0.004475 seconds
-  Import took 0.011351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.110136 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs
-  artifactKey: Guid(08b1b79af3367a347a0c8837e1087aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs using Guid(08b1b79af3367a347a0c8837e1087aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2214bf25f2d133c11f37c90815e64a89') in 0.001809 seconds
-  Import took 0.007257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.830149 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props
-  artifactKey: Guid(d6cba3707f81f4e419f1e0cff51f6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props using Guid(d6cba3707f81f4e419f1e0cff51f6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8060cfde583cc27bfe5e884410fca3b1') in 0.001790 seconds
-  Import took 0.007694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.386270 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props/Sign
-  artifactKey: Guid(f7b4608719aa20e4abb12dfcc95448a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props/Sign using Guid(f7b4608719aa20e4abb12dfcc95448a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3cb98641be27f5faa3b0debd223d73') in 0.002023 seconds
-  Import took 0.008194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069328 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props/Sign/Sign_Bar_01_01.prefab
-  artifactKey: Guid(bc7e917895a11544db37d252a4b5fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props/Sign/Sign_Bar_01_01.prefab using Guid(bc7e917895a11544db37d252a4b5fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dcefeb2a4300514aaa991df72b6ad6') in 0.018406 seconds
-  Import took 0.024570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.212372 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props/Mat/mat 02.prefab
-  artifactKey: Guid(8707e6a11a25bb343b00548f38b0a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Props/Mat/mat 02.prefab using Guid(8707e6a11a25bb343b00548f38b0a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979b92cf1e9c749287020dfdac4576a4') in 0.012609 seconds
-  Import took 0.019226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.312220 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables
-  artifactKey: Guid(3b5fad606a0e2354a9f69766cad12360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables using Guid(3b5fad606a0e2354a9f69766cad12360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0509d434bab286d9c4c0d4c2f781bb1') in 0.001861 seconds
-  Import took 0.008464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.739694 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables/Basic
-  artifactKey: Guid(f42eb96e70b6b8a419a548c570172b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables/Basic using Guid(f42eb96e70b6b8a419a548c570172b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ff980714582ff99010d246ea656549') in 0.001724 seconds
-  Import took 0.008125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001182 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables/Basic
-  artifactKey: Guid(f42eb96e70b6b8a419a548c570172b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables/Basic using Guid(f42eb96e70b6b8a419a548c570172b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ff980714582ff99010d246ea656549') in 0.001803 seconds
-  Import took 0.009719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073358 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables/Basic/Table_Sake_02_04.prefab
-  artifactKey: Guid(1076dc341667eae4d8ff1aaaf781b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Tables/Basic/Table_Sake_02_04.prefab using Guid(1076dc341667eae4d8ff1aaaf781b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dedbfa79d7f0e4a202dec8a2ec52fc6') in 0.011035 seconds
-  Import took 0.016784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.539259 seconds.
-  path: Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Lighting/Floor Lamp_Sake_01_04.prefab
-  artifactKey: Guid(f58c0c6eb2abe894f89ad3e3d1da6ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Sake Glassware and Props Pack/Prefabs/Furniture/Lighting/Floor Lamp_Sake_01_04.prefab using Guid(f58c0c6eb2abe894f89ad3e3d1da6ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d469c72b74791f7e91f463166791676') in 0.012098 seconds
-  Import took 0.017837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.147611 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Models
-  artifactKey: Guid(a7f8477fb1b63a04283df5e363e672c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Models using Guid(a7f8477fb1b63a04283df5e363e672c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e719e41047c5204ed59996219588fcea') in 0.002031 seconds
-  Import took 0.007781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066120 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Models/Build Kit PD Interior_03.fbx
-  artifactKey: Guid(6e7d83f09f4c0284ebaeb37cf2a800e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Models/Build Kit PD Interior_03.fbx using Guid(6e7d83f09f4c0284ebaeb37cf2a800e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9dbc0d3b91821be0dc2f38c9fe2a7b') in 0.142340 seconds
-  Import took 0.148258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Models/PD_Furniture_01.fbx
-  artifactKey: Guid(01e0a7356def4c2458af47aff3459add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Models/PD_Furniture_01.fbx using Guid(01e0a7356def4c2458af47aff3459add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323a8099f9dbbcb83d860f0db7c9631e') in 0.084963 seconds
-  Import took 0.090477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Models/PD_Props_02.fbx
-  artifactKey: Guid(e0029a3d362dcc04bb7fda78b06fe744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Models/PD_Props_02.fbx using Guid(e0029a3d362dcc04bb7fda78b06fe744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2c04b850869efbe79be83bb2417fec') in 0.172992 seconds
-  Import took 0.178504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Models/PD_Furniture_02.fbx
-  artifactKey: Guid(92554231fd6bd2e45a81afef31d60033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Models/PD_Furniture_02.fbx using Guid(92554231fd6bd2e45a81afef31d60033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191c6249910b8142f8ba235fa54727c9') in 0.013467 seconds
-  Import took 0.018773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Models/PD_Props_01.fbx
-  artifactKey: Guid(e3e1ab342dc4f4840ad1a9bce1872047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Models/PD_Props_01.fbx using Guid(e3e1ab342dc4f4840ad1a9bce1872047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fda5332284aba36a1f1e890fc44163') in 0.197456 seconds
-  Import took 0.203365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.115751 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Gym Equipment
-  artifactKey: Guid(58650072b0a13bc4fb0a6a9a072fb730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Gym Equipment using Guid(58650072b0a13bc4fb0a6a9a072fb730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aa8ab934d4cddd1a076f918c0ff863') in 0.003815 seconds
-  Import took 0.010438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088666 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Gym Equipment/DumbellRack_Setup.prefab
-  artifactKey: Guid(28a99a3e87ff7f947a587d00f7ddf35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Gym Equipment/DumbellRack_Setup.prefab using Guid(28a99a3e87ff7f947a587d00f7ddf35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c143d484ff8cf2d334af72d39a49dc2') in 0.014694 seconds
-  Import took 0.021026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.046462 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Lamps/Table
-  artifactKey: Guid(b417777be308c364990a52f21f3d4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Lamps/Table using Guid(b417777be308c364990a52f21f3d4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dac6ddd46d987730c59f23fcf0a512') in 0.002084 seconds
-  Import took 0.007804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051699 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Lamps/Table/Table Lamp_PD_02.prefab
-  artifactKey: Guid(5a930441090b86541b78a444c62e4119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Lamps/Table/Table Lamp_PD_02.prefab using Guid(5a930441090b86541b78a444c62e4119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782d5dc558ee84138b3c2bd6186879c5') in 0.012093 seconds
-  Import took 0.018826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.793406 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Lamps/Ceiling/Ceiling Lamp_PD_01_05.prefab
-  artifactKey: Guid(08b9643eff1eabc40b576d7e8c9f4e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Lamps/Ceiling/Ceiling Lamp_PD_01_05.prefab using Guid(08b9643eff1eabc40b576d7e8c9f4e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db06521fddfa39a09f76b6496efbc471') in 0.015022 seconds
-  Import took 0.022316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.553582 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Misc
-  artifactKey: Guid(576a6b8ac3d1e9a40b043ae635cfbca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Misc using Guid(576a6b8ac3d1e9a40b043ae635cfbca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ece40cf8ea54244a1925cd211dd6cee') in 0.002434 seconds
-  Import took 0.008242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055651 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Misc/Locker_PD_01_01.prefab
-  artifactKey: Guid(0dd31e5b6c41aa44eb4aab9922e71a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Misc/Locker_PD_01_01.prefab using Guid(0dd31e5b6c41aa44eb4aab9922e71a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f70fb8939b7785b614d483976184180') in 0.022250 seconds
-  Import took 0.028183 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004572 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3217 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 161.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3951.
-Total: 3.258300 ms (FindLiveObjects: 0.378600 ms CreateObjectMapping: 0.113600 ms MarkObjects: 2.435300 ms  DeleteObjects: 0.328300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.200900 seconds.
-  path: Assets/Prefabs/Desk set.prefab
-  artifactKey: Guid(93dbd7f998d34254fa5d2a5e3a6f8cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Desk set.prefab using Guid(93dbd7f998d34254fa5d2a5e3a6f8cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4638a936605992b166337d7f24f663ff') in 0.248364 seconds
-  Import took 0.257245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 314.651701 seconds.
-  path: Assets/Prefabs/white board (1).prefab
-  artifactKey: Guid(955b7909b48e81447b5d67448ce78caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/white board (1).prefab using Guid(955b7909b48e81447b5d67448ce78caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3b27889a014ca0edf0a4212fde6e0a') in 0.011882 seconds
-  Import took 0.018602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003733 seconds.
-  path: Assets/Prefabs/white board (1).prefab
-  artifactKey: Guid(955b7909b48e81447b5d67448ce78caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/white board (1).prefab using Guid(955b7909b48e81447b5d67448ce78caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3b27889a014ca0edf0a4212fde6e0a') in 0.007936 seconds
-  Import took 0.015049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.315181 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree
-  artifactKey: Guid(1cf7356e33de79544952162ba492241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree using Guid(1cf7356e33de79544952162ba492241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabd187525310361511927b7c610b1aa') in 0.002070 seconds
-  Import took 0.008061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.030038 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab
-  artifactKey: Guid(8b421e942b4b4274cbb9a18cf17aa6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab using Guid(8b421e942b4b4274cbb9a18cf17aa6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc0f5f719bf438241def9bfa96d32fd') in 0.002163 seconds
-  Import took 0.007571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104496 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV1.prefab
-  artifactKey: Guid(214b673e61a328f4b97a4c1f1bba63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV1.prefab using Guid(214b673e61a328f4b97a4c1f1bba63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3df0c2c9dd9f367556a0beda1e2efd') in 0.020636 seconds
-  Import took 0.026059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/Video intercomV1.prefab
-  artifactKey: Guid(98859ffeeab916344bce9e52e502eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/Video intercomV1.prefab using Guid(98859ffeeab916344bce9e52e502eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c8ec5c432e3e2c7f80df692d436e91') in 0.027452 seconds
-  Import took 0.033298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV4.prefab
-  artifactKey: Guid(cb60040219dadd549961b794ea48a5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV4.prefab using Guid(cb60040219dadd549961b794ea48a5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b2e7c8c0791ac0310952c07806269a') in 0.031782 seconds
-  Import took 0.037992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV3.prefab
-  artifactKey: Guid(4fdd4c7eaedfdf4468f35acfb5fbce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV3.prefab using Guid(4fdd4c7eaedfdf4468f35acfb5fbce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07458c661d294b159acbe7c6969605b9') in 0.026652 seconds
-  Import took 0.032487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV4.prefab
-  artifactKey: Guid(cb60040219dadd549961b794ea48a5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV4.prefab using Guid(cb60040219dadd549961b794ea48a5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b2e7c8c0791ac0310952c07806269a') in 0.028158 seconds
-  Import took 0.034052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV7.prefab
-  artifactKey: Guid(278941cfba0a8a14cb8571113f4c93d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV7.prefab using Guid(278941cfba0a8a14cb8571113f4c93d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a93d1bdba6e538883f19ffd32c1552a') in 0.023792 seconds
-  Import took 0.029755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/Video intercomV2.prefab
-  artifactKey: Guid(f742591dd0579d348b57910f6cb34ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/Video intercomV2.prefab using Guid(f742591dd0579d348b57910f6cb34ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa63be72c23ce3c3c689068a1c57ceb') in 0.020682 seconds
-  Import took 0.026682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV6.prefab
-  artifactKey: Guid(89dd74c61103b7644ab2dd9d26606ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV6.prefab using Guid(89dd74c61103b7644ab2dd9d26606ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503578ad388d7eb96307060de2125819') in 0.022137 seconds
-  Import took 0.028174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV5.prefab
-  artifactKey: Guid(2f91276de7c55894daf22ad8f81ca24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV5.prefab using Guid(2f91276de7c55894daf22ad8f81ca24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83c0bacdae43cedbf690f35de13b129') in 0.022557 seconds
-  Import took 0.029059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV2.prefab
-  artifactKey: Guid(43eee9f9554092940955b82111321ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/01_AssetStore/DoorPackFree/Prefab/DoorV2.prefab using Guid(43eee9f9554092940955b82111321ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5ee99024431b04c9d7267d192f419c') in 0.016914 seconds
-  Import took 0.022764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.154815 seconds.
-  path: Assets/Free asset/HQ Laptop
-  artifactKey: Guid(64cdb74364cb979488f7f1df8497ae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/HQ Laptop using Guid(64cdb74364cb979488f7f1df8497ae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681bce00f3f55287078992bad0b7800a') in 0.001724 seconds
-  Import took 0.007521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.472580 seconds.
-  path: Assets/Free asset/Soja Exiles/Playground
-  artifactKey: Guid(3694fcabf8c43594b88c39e289d4687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Playground using Guid(3694fcabf8c43594b88c39e289d4687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abdd65c1c2d0e96b8590cb0835d9c0c') in 0.001891 seconds
-  Import took 0.007478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 146.378443 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Office
-  artifactKey: Guid(419d524caaea03042afa973e32180c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Office using Guid(419d524caaea03042afa973e32180c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7e2bc8dd2990cc6a099583d9d27d24') in 0.002009 seconds
-  Import took 0.007060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068695 seconds.
-  path: Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Office/DrawerTable_PD_01_03.prefab
-  artifactKey: Guid(a7484efd054fb62488056753caf342ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free asset/Soja Exiles/Police Department/Prefabs/Furniture/Cabinet & Drawers/Office/DrawerTable_PD_01_03.prefab using Guid(a7484efd054fb62488056753caf342ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcb1de1154f3f8e197b428e6ede80b3') in 0.015674 seconds
-  Import took 0.021174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.776079 seconds.
-  path: Assets/Test Pro-P.asset
-  artifactKey: Guid(1df301e2def5d2140b6dabe9cc5a604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test Pro-P.asset using Guid(1df301e2def5d2140b6dabe9cc5a604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0748859b5a2a20d19d4ba38924d2d9') in 0.008567 seconds
-  Import took 0.014358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(01d9241545866724cbb3a8535abccc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(01d9241545866724cbb3a8535abccc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbded1997f878a1e41b064f2d2402873') in 0.003072 seconds
-  Import took 0.008538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(be323e968b5c16e43a60c3569cc4c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(be323e968b5c16e43a60c3569cc4c70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452d0fc4d7dc8042d1e6ad482b467478') in 0.003039 seconds
-  Import took 0.008816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.840297 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(79431d3d3fae54b4eaae481a0dc0d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(79431d3d3fae54b4eaae481a0dc0d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7955cf7f15e7f02ca9b73722dfcb1798') in 0.001904 seconds
-  Import took 0.007796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050541 seconds.
-  path: Assets/Prefabs/white board (1).prefab
-  artifactKey: Guid(955b7909b48e81447b5d67448ce78caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/white board (1).prefab using Guid(955b7909b48e81447b5d67448ce78caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf188e7ebdc665939857d9e022457a03') in 0.008833 seconds
-  Import took 0.014649 seconds .
+  path: Assets/Free asset/ExampleAssets/Prefabs/Workbench_LOD1.prefab
+  artifactKey: Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free asset/ExampleAssets/Prefabs/Workbench_LOD1.prefab using Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da433a8e699bb7683fbede31c1090936') in 0.013361 seconds
+  Import took 0.018533 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
