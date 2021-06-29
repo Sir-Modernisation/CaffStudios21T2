@@ -212,3 +212,4 @@ Total: 2.975400 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.095100 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
