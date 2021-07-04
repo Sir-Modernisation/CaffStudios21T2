@@ -4,6 +4,27 @@ using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
+    public GameObject pauseMenu;
+    public GameObject pauseCamera;
+    public GameObject fpc;
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseMenu.SetActive(true);
+            pauseCamera.SetActive(true);
+            fpc.SetActive(false);
+            Time.timeScale = 0;
+            
+
+        }
+
+       
+        
+    }
+
+
     public void PauseTime()
     {
 
@@ -13,14 +34,11 @@ public class Pause : MonoBehaviour
     }
 
     public void Unpause()
-    { 
-        if (Time.timeScale == 0 )
-        {
-            Time.timeScale = 2;
-        }
-        if (Time.timeScale == 0 )
-        {
-            Time.timeScale = 1;
-        }
+    {
+        
+        Time.timeScale = 1;
+        pauseMenu.SetActive(false);
+        pauseCamera.SetActive(false);
+        fpc.SetActive(true);
     }
 }
