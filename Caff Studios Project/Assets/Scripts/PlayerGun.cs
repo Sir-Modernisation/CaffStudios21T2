@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerGun : MonoBehaviour
 {
-    //Script to control the players gun - initially getting raycasting shots working, Then will also be responsible for Animations, Tracking the number of rounds fired, Scope, etc
+    
 
     int mag;
     public Material Material1;
@@ -17,11 +17,11 @@ public class PlayerGun : MonoBehaviour
         anim = pistol.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
 
-        //-Section: Managing wether the gun can be fired or needs to be reloaded-
+        //Section: Managing wether the gun can be fired or needs to be reloaded
         if (Input.GetButtonDown("Fire1"))
         {
             if(mag != 0)
@@ -55,7 +55,7 @@ public class PlayerGun : MonoBehaviour
             }
         }
 
-        //shouting
+        //shouting commands
         if (Input.GetKeyDown("f"))
         {
             print("attempted shout");
@@ -72,33 +72,29 @@ public class PlayerGun : MonoBehaviour
     {
         print("Bang!");
         mag = mag - 1;
-        //playanimation shoot or something
         if (mag == 0)
         {
-            //play slide lock
+            //play slide lockback
             anim.SetTrigger("FireLast");
         }
         else
         {
             anim.SetTrigger("Fire");
-            anim.SetTrigger("Fire");// shoots - have to do twice to unflag the trigger, else animation seems to repeat
+            anim.SetTrigger("Fire");// shoots - have to do twice to unflag the trigger, else animation seems to repeat - strange
         }
-        //Raycast here
+        
         
         Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out hit))
         {
-            hit.transform.gameObject.GetComponent<Renderer>().material = Material1;
+            //hit.transform.gameObject.GetComponent<Renderer>().material = Material1; - testing artefact, turns walls green otherwise
+            //In future, placing a bullet hole decal at the raycast hit
+            print("hit something");
         }
     }
 
-    void Shout()
-    {
-        // raycast to the target, get its current state and play the relavant animation / sound
-    }
 
-    //-------------------------------------------------------------
 
 
 }
