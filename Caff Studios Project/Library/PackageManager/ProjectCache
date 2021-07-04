@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Uni/Studio 1/CaffStudios21T2/Caff Studios Project/Packages/manifest.json
+    m_FilePath: C:/Users/keith/Documents/GitHub/CaffStudios21T2/Caff Studios Project/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637609679472731698
-    m_Hash: 4217824385
+      ticks: 637609623949615997
+    m_Hash: 1490836200
   m_LockFileStatus:
-    m_FilePath: D:/Uni/Studio 1/CaffStudios21T2/Caff Studios Project/Packages/packages-lock.json
+    m_FilePath: C:/Users/keith/Documents/GitHub/CaffStudios21T2/Caff Studios Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637609679472741707
-    m_Hash: 3559402001
+      ticks: 637609623949885193
+    m_Hash: 3899857285
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.5.7
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.collab-proxy@1.5.7
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.collab-proxy@1.5.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -129,7 +130,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -236,7 +238,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -321,7 +324,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -390,7 +394,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.3
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.postprocessing@3.0.3
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.postprocessing@3.0.3
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -479,7 +484,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.5.0
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.probuilder@4.5.0
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.probuilder@4.5.0
       assetPath: Packages/com.unity.probuilder
       name: com.unity.probuilder
       displayName: ProBuilder
@@ -617,7 +623,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.3-preview.6
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
       assetPath: Packages/com.unity.progrids
       name: com.unity.progrids
       displayName: ProGrids
@@ -694,7 +701,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 10.5.0
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.render-pipelines.universal@10.5.0
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.render-pipelines.universal@10.5.0
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -807,7 +815,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -899,7 +908,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1054,7 +1064,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -3007,7 +3018,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3068,7 +3080,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3143,7 +3156,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.5.0
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.render-pipelines.core@10.5.0
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.render-pipelines.core@10.5.0
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3294,7 +3308,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.5.0
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.shadergraph@10.5.0
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.shadergraph@10.5.0
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3448,7 +3463,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.3
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.settings-manager@1.0.3
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.settings-manager@1.0.3
       assetPath: Packages/com.unity.settings-manager
       name: com.unity.settings-manager
       displayName: Settings Manager
@@ -3506,7 +3522,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3580,7 +3597,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.2
       source: 1
-      resolvedPath: D:\Uni\Studio 1\CaffStudios21T2\Caff Studios Project\Library\PackageCache\com.unity.searcher@4.3.2
+      resolvedPath: C:\Users\keith\Documents\GitHub\CaffStudios21T2\Caff Studios
+        Project\Library\PackageCache\com.unity.searcher@4.3.2
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3653,5 +3671,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: D:/Uni/Studio 1/CaffStudios21T2/Caff Studios Project/Packages
+m_ProjectPath: C:/Users/keith/Documents/GitHub/CaffStudios21T2/Caff Studios Project/Packages
 m_EditorVersion: 2020.3.9f1 (108be757e447)
