@@ -16,7 +16,8 @@ public class Pause : MonoBehaviour
             pauseCamera.SetActive(true);
             fpc.SetActive(false);
             Time.timeScale = 0;
-            
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
 
         }
 
