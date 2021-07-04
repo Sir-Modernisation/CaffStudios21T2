@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &934567065055768287
 Transform:
   m_ObjectHideFlags: 0
@@ -461,6 +461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7426922283642504390}
+  - component: {fileID: 8181140310910718656}
   m_Layer: 0
   m_Name: PopupTarget_Man4
   m_TagString: Untagged
@@ -475,9 +476,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7807670393640164988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.547, y: 1.509, z: -20.525}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 9.174829, y: 0.99079776, z: -20.525}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 908450939397596265}
   - {fileID: 6435121372142446871}
@@ -488,6 +489,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8181140310910718656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7807670393640164988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa4d475bba31ae4d990127ba5fd56de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 3
+  speed: 2
+  distance: 3
+  right: 0
+  left: 0
 --- !u!1 &9147279425462323141
 GameObject:
   m_ObjectHideFlags: 0

@@ -37,7 +37,7 @@ public class k_popupTraining : MonoBehaviour
         //spwan Random targetA in location A
         targetIndex = Random.Range(0, target.Length);
         targetA = target[targetIndex];
-        Instantiate(targetA, spwanPoint[0].position, Quaternion.identity);
+        Instantiate(targetA, spwanPoint[0].position, Quaternion.Euler(0, 180, 0));
 
         //spwan Random targetB in location B, if the result == A, random pick a new number
         targetIndex = Random.Range(0, target.Length);
@@ -48,6 +48,6 @@ public class k_popupTraining : MonoBehaviour
             targetIndex = Random.Range(0, target.Length);
             targetB = target[targetIndex];
         }
-        Instantiate(targetB, spwanPoint[1].position, Quaternion.identity);
+        Instantiate(targetB, spwanPoint[1].position, Quaternion.Euler(0, 180, 0));
     }
 }

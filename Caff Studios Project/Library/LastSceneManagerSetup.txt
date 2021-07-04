@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/k_level/Shoot Training 2/Popup target training.unity
+- path: Assets/k_level/Shoot Training 1/Shoot training.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

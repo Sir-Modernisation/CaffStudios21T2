@@ -11,14 +11,6 @@ public class k_popupTar : MonoBehaviour
     public float speed;
     public float distance;
 
-
-    //public object for hitbox 
-    public GameObject head;
-    public GameObject weaponHand;
-    public GameObject body;
-    public GameObject leg;
-    public GameObject arm;
-
     public bool right, left;
 
     private float startTime = 0f;
