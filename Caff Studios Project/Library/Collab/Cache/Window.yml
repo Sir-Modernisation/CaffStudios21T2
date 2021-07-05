@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Unity.CollabProxy.Editor:Unity.Cloud.Collaborate.UserInterface:WindowCache
   SimpleSelectedItems:
     m_Keys:
     - Assets/2D element.meta
@@ -28,6 +28,10 @@ MonoBehaviour:
     - Assets/2D element/Materials.meta
     - Assets/2D element/Materials/2021-06-26 (9).mat
     - Assets/2D element/Materials/2021-06-26 (9).mat.meta
+    - Assets/2D element/gun rules-01.jpg
+    - Assets/2D element/gun rules-01.jpg.meta
+    - Assets/2D element/gun rules-02.jpg
+    - Assets/2D element/gun rules-02.jpg.meta
     - Assets/Animations/Asset.meta
     - Assets/Animations/Asset/Crouch Death.anim
     - Assets/Animations/Asset/Crouch Death.anim.meta
@@ -113,7 +117,6 @@ MonoBehaviour:
     - Assets/Animations/Enemy AI.controller
     - Assets/Animations/Enemy AI.controller.meta
     - Assets/Animations/Enemy Animations/idle with pistol.anim
-    - Assets/Animations/Enemy Animations/idle with pistol.anim.meta
     - Assets/Animations/NPC_1.controller
     - Assets/Animations/NPC_1.controller.meta
     - Assets/Animations/z-old.meta
@@ -2760,108 +2763,6 @@ MonoBehaviour:
     - Assets/Mats/Green.mat.meta
     - Assets/Mats/Screen.mat
     - Assets/Mats/Screen.mat.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/A-pose.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/A-pose.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/T-pose.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/T-pose.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/crashing.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/crashing.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/dead.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/dead.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/dead2.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/dead2.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/fight pose.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/fight pose.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/idle.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/idle.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump ascending.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump ascending.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump descending.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump descending.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump landing.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump landing.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump mid air.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump mid air.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump start.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/jump start.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/pistol shooting
-      with recoil.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/pistol shooting
-      with recoil.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/punch left
-      and right.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/punch left
-      and right.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/running.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/running.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/walking left.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/walking left.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/walking right.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/walking right.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/walking.anim
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Animations/walking.anim.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/FBX/The Adventurer Blake.fbx.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Materials/mat_char_blake.mat
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Materials/mat_char_blake.mat.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Materials/mat_prop_mock_gun.mat
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Materials/mat_prop_mock_gun.mat.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Prefab/The Adventurer
-      Blake.prefab
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Prefab/The Adventurer
-      Blake.prefab.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Read Me.txt.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Sample Scene/Adventurer
-      Black Sample.unity
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Sample Scene/Adventurer
-      Black Sample.unity.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Textures/tex_char_blake_albedo.png.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Textures/tex_char_blake_metal_ao_smoothness.png.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Textures/tex_char_blake_normal.png.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Textures/tex_prop_gun_albedo.png.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Textures/tex_prop_mock_gun_metal_OC_Smooth.png.meta
-    - Assets/Model package/ManNeko_Assets/Adventurer Blake/Textures/tex_prop_mock_gun_normal.png.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/Grid.mat
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/Grid.mat.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/WeaponPick.mat
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/WeaponPick.mat.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/colors.mat
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/colors.mat.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/colors.psd.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/colors_spec.psd.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Materials/grid.jpg.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Assault Rifle
-      2/assault_rifle2.fbx.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Assault Rifle
-      2/assault_rifle2_blend.rar.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Assault Rifle/assault_rifle_blend.rar.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Assault Rifle/assault_rifle_fbx.fbx.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Bat/Bat_blend.rar.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Bat/Bat_fbx.fbx.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Character/char_all_parts.fbx.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Character/char_blend.rar.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Sniper Rifle/sniper_rifle_blend.rar.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/Sniper Rifle/sniper_rifle_fbx.fbx.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/background.fbx.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/glock18/pistol.fbx.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Models/glock18/pistol_blend.rar.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_1.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_1.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_2.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_2.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_3.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_3.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_4.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Characters/char_4.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/Bat_fbx.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/Bat_fbx.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/assault_rifle2_fbx.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/assault_rifle2_fbx.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/assault_rifle_fbx.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/assault_rifle_fbx.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/pistol_fbx.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/pistol_fbx.prefab.meta
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/sniper_rifle_fbx.prefab
-    - Assets/Model package/SurvivalStylizedCharacters/Assets/Prefabs/Weapons/sniper_rifle_fbx.prefab.meta
     - Assets/Prefabs/Character.meta
     - Assets/Prefabs/Character/Enemy AI.prefab
     - Assets/Prefabs/Character/Enemy AI.prefab.meta
@@ -2895,6 +2796,7 @@ MonoBehaviour:
     - Assets/Scenes/fps+gun prefab scene.unity.meta
     - Assets/Scripts/Pause.cs
     - Assets/Scripts/Pause.cs.meta
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
     - Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat
     - Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat
     - Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat
@@ -2968,15 +2870,22 @@ MonoBehaviour:
     - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat
     - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat
     - Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset
     - Assets/k_level/2D element.meta
+    - Assets/k_level/Shoot Training 1/Shoot training.unity
+    - Assets/k_level/Shoot Training 1/TargetBoard_a.cs.meta
+    - Assets/k_level/Shoot Training 1/k_rayhit_test.cs
+    - Assets/k_level/Shoot Training 1/k_rayhit_test.cs.meta
     - Assets/k_level/Shoot Training 2/Popup target training.unity
     - Assets/k_level/level_test.unity
     - Packages/manifest.json
     - Packages/packages-lock.json
     - ProjectSettings/EditorBuildSettings.asset
     - 
-    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
-  RevisionSummary: update
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
