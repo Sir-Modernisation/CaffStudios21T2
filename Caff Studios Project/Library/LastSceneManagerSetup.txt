@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/k_level/Shoot Training 1/Shoot training.unity
+- path: Assets/Scenes/Cutscene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
